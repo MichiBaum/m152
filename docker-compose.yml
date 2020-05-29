@@ -1,0 +1,24 @@
+version: '3.7'
+
+services:
+  m152-frontend:
+    container_name: m152-frontend
+    hostname: m152-frontend
+    restart: always
+    expose:
+    - "80"
+    build:
+      context: ./frontend/m152
+      dockerfile: Dockerfile
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:80 || exit 1"]
+      interval: 3m
+      timeout: 10s
+      retries: 3
+      start_period: 3m
+    networks: 
+      - reverse-proxy-network
+
+networks:
+  reverse-proxy-network:
+      name: reverse-proxy-network

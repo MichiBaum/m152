@@ -1,0 +1,48 @@
+###Frontend
+
+# compiled output
+/frontend/m152/dist
+/frontend/m152/tmp
+/frontend/m152/out-tsc
+# Only exists if Bazel was run
+/frontend/m152/bazel-out
+
+# dependencies
+/frontend/m152/node_modules
+
+# profiling files
+/frontend/m152/chrome-profiler-events.json
+/frontend/m152/speed-measure-plugin.json
+
+# IDEs and editors
+/frontend/m152/.idea
+!/frontend/m152/.idea/runConfigurations
+/frontend/m152/.project
+/frontend/m152/.classpath
+/frontend/m152/.c9/
+*/frontend/m152/.launch
+/frontend/m152/.settings/
+*/frontend/m152/.sublime-workspace
+
+# IDE - VSCode
+/frontend/m152/.vscode/*
+!/frontend/m152/.vscode/settings.json
+!/frontend/m152/.vscode/tasks.json
+!/frontend/m152/.vscode/launch.json
+!/frontend/m152/.vscode/extensions.json
+/frontend/m152/.history/*
+
+# misc
+/frontend/m152/.sass-cache
+/frontend/m152/connect.lock
+/frontend/m152/coverage
+/frontend/m152/libpeerconnection.log
+/frontend/m152/npm-debug.log
+/frontend/m152/yarn-error.log
+/frontend/m152/testem.log
+/frontend/m152/typings
+
+# System Files
+/frontend/m152/.DS_Store
+/frontend/m152/Thumbs.db
+
