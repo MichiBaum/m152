@@ -14,8 +14,11 @@ import {LanguageConfig} from './core/language.config';
 import {appInitializerProviders} from './core/app-initializer-provider';
 import {GlobalErrorHandler} from './core/error-handlers/global-error.handler';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {DropdownModule} from 'primeng';
+import {DropdownModule, FullCalendarModule} from 'primeng';
 import {HeaderModule} from './header/header.module';
+import { TimelineComponent } from './timeline/timeline.component';
+import {TimelineModule} from './timeline/timeline.module';
+import {NavigationModule} from './navigation/navigation.module';
 
 export function TranslateLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -46,8 +49,10 @@ registerLocaleData(localeEn);
           useClass: TranslateErrorHandler,
         }
     }),
-    DropdownModule,
     HeaderModule,
+    TimelineModule,
+    NavigationModule,
+    HeaderModule
   ],
   providers: [
     LanguageConfig,

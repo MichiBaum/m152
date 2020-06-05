@@ -8,6 +8,7 @@
     "nav": "Navigation"
   },
   "navigation": {
-    "home": "Home"
+    "home": "Home",
+    "timeline": "Zeitlinie"
   }
 }

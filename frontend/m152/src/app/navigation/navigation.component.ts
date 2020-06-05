@@ -38,6 +38,14 @@ export class NavigationComponent implements OnInit {
           this.sidebarVisible = false;
         }
       } as MenuItem,
+      {
+        label: this.translate.instant('navigation.timeline'),
+        icon: 'pi pi-calendar',
+        routerLink: 'timeline',
+        command: () => {
+          this.sidebarVisible = false;
+        }
+      } as MenuItem,
     ] as MenuItem[];
   }
 
