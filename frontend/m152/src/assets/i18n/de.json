@@ -1,0 +1,13 @@
+{
+  "language": {
+    "english": "Englisch",
+    "german": "Deutsch"
+  },
+  "application": {
+    "title": "M152",
+    "nav": "Navigation"
+  },
+  "navigation": {
+    "home": "Home"
+  }
+}

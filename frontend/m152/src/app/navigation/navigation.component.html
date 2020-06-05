@@ -1,0 +1,23 @@
+<p-sidebar
+  [(visible)]="sidebarVisible"
+>
+  <p-slideMenu
+    [model]="navItems"
+    class="text-align-left"
+    [style]="{
+      'white-space':'nowrap',
+      'width': 'auto',
+      'border': 'none'
+    }"
+    [viewportHeight]="300"
+  ></p-slideMenu>
+</p-sidebar>
+
+<button
+  type="button"
+  class="ui-button-secondary"
+  (click)="sidebarVisible = true"
+  pButton
+  icon="pi pi-align-justify"
+  label="{{'application.nav' | translate}}"
+></button>
