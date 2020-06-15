@@ -9,6 +9,7 @@
   },
   "navigation": {
     "home": "home",
-    "timeline": "timeline"
+    "timeline": "timeline",
+    "imprint": "imprint"
   }
 }

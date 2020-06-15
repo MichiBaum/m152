@@ -150,6 +150,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "m152"
+    }
+  },
+  "defaultProject": "m152",
+  "cli": {
+    "analytics": false
+  }
 }

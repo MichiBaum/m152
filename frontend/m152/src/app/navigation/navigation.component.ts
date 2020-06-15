@@ -45,7 +45,14 @@ export class NavigationComponent implements OnInit {
         command: () => {
           this.sidebarVisible = false;
         }
-      } as MenuItem,
+      } as MenuItem,{
+        label: this.translate.instant('navigation.imprint'),
+        icon: 'pi pi-info',
+        routerLink: 'imprint',
+        command: () => {
+          this.sidebarVisible = false;
+        }
+      } as MenuItem
     ] as MenuItem[];
   }
 
