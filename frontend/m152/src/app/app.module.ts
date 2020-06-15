@@ -19,6 +19,7 @@ import {HeaderModule} from './header/header.module';
 import { TimelineComponent } from './timeline/timeline.component';
 import {TimelineModule} from './timeline/timeline.module';
 import {NavigationModule} from './navigation/navigation.module';
+import {ImprintModule} from './imprint/imprint.module';
 
 export function TranslateLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -52,7 +53,8 @@ registerLocaleData(localeEn);
     HeaderModule,
     TimelineModule,
     NavigationModule,
-    HeaderModule
+    HeaderModule,
+    ImprintModule
   ],
   providers: [
     LanguageConfig,

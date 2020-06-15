@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  base_href: 'm152'
+  base_href: '/m152'
 };
