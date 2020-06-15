@@ -12,8 +12,6 @@ services:
       dockerfile: Dockerfile
     networks: 
       - reverse-proxy-network
-    volumes: 
-      - /.docker_data/m152-frontend/logs:/var/log/nginx
 
 networks:
   reverse-proxy-network:
