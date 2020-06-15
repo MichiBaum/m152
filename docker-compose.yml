@@ -10,12 +10,6 @@ services:
     build:
       context: ./frontend/m152
       dockerfile: Dockerfile
-    healthcheck:
-      test: ["CMD-SHELL", "curl -f http://localhost:80 || exit 1"]
-      interval: 3m
-      timeout: 10s
-      retries: 3
-      start_period: 3m
     networks: 
       - reverse-proxy-network
 
