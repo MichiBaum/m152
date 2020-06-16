@@ -5,6 +5,8 @@
 		}
 	],
 	"settings": {
-		"files.autoSave": "afterDelay"
+		"files.autoSave": "onFocusChange",
+		"files.autoSaveDelay": 100,
+		"editor.definitionLinkOpensInPeek": true
 	}
 }
