@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  base_href: '/m152'
+  base_href: '/'
 };
 
 /*
