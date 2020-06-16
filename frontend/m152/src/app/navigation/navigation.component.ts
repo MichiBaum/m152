@@ -2,6 +2,7 @@ import {Component, OnInit} from '@angular/core';
 import {TranslateService} from '@ngx-translate/core';
 import {MenuItem} from 'primeng';
 import {LanguageConfig} from '../core/language.config';
+import {RouternavigationService} from "../core/services/routernavigation.service";
 
 @Component({
   selector: 'app-navigation',
@@ -16,6 +17,7 @@ export class NavigationComponent implements OnInit {
   constructor(
     private translate: TranslateService,
     private languageConfig: LanguageConfig,
+    private routernavigationService: RouternavigationService
   ) {
 
     this.languageConfig.languageChanged.subscribe(() => {
@@ -33,25 +35,25 @@ export class NavigationComponent implements OnInit {
       {
         label: this.translate.instant('navigation.home'),
         icon: 'pi pi-home',
-        routerLink: 'home',
         command: () => {
           this.sidebarVisible = false;
+          this.routernavigationService.homeNavigate();
         }
       } as MenuItem,
       {
         label: this.translate.instant('navigation.timeline'),
         icon: 'pi pi-calendar',
-        routerLink: 'timeline',
         command: () => {
           this.sidebarVisible = false;
+          this.routernavigationService.timelineNavigate();
         }
       } as MenuItem,
       {
         label: this.translate.instant('navigation.imprint'),
         icon: 'pi pi-info',
-        routerLink: 'imprint',
         command: () => {
           this.sidebarVisible = false;
+          this.routernavigationService.imprintNavigate();
         }
       } as MenuItem
     ] as MenuItem[];
