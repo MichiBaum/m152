@@ -50,6 +50,11 @@ export const events_data = [
     end: '2020-06-15T15:30:00'
   },
   {
+    title: 'Impressum erstellt',
+    start: '2020-06-15T18:30:00',
+    end: '2020-06-15T19:30:00'
+  },
+  {
     title: 'Applikation erstes Mal deployed und Fehler behoben',
     start: '2020-06-15T19:30:00',
     end: '2020-06-15T21:30:00'
@@ -58,5 +63,10 @@ export const events_data = [
     title: 'Zeitplan überarbeitet',
     start: '2020-06-16T08:20:00',
     end: '2020-06-15T09:00:00'
+  },
+  {
+    title: 'Impressum auf English übersetzt',
+    start: '2020-06-16T09:00:00',
+    end: '2020-06-15T09:50:00'
   }
 ];
