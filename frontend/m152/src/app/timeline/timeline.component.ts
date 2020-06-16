@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import dayGridPlugin from '@fullcalendar/daygrid';
 import timeGridPlugin from '@fullcalendar/timegrid';
-import {events_data} from "./events.data";
+import {events_data} from './events.data';
 
 @Component({
   selector: 'app-timeline',
@@ -29,7 +29,7 @@ export class TimelineComponent implements OnInit {
       height: window.innerHeight / 100 * 80
     };
 
-    this.events = events_data
+    this.events = events_data;
   }
 
 }

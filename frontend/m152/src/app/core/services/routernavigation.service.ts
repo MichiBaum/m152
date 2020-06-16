@@ -1,22 +1,22 @@
-import {Router} from "@angular/router";
-import {Injectable} from "@angular/core";
+import {Router} from '@angular/router';
+import {Injectable} from '@angular/core';
 
 @Injectable({
   providedIn: 'root'
 })
-export class RouternavigationService{
+export class RouternavigationService {
 
-  constructor(private router:Router) { }
+  constructor(private router: Router) { }
 
-  homeNavigate(){
+  homeNavigate() {
     this.router.navigate(['/home'], {skipLocationChange: true});
   }
 
-  timelineNavigate(){
+  timelineNavigate() {
     this.router.navigate(['/timeline'], { skipLocationChange: true });
   }
 
-  imprintNavigate(){
+  imprintNavigate() {
     this.router.navigate(['/imprint'], { skipLocationChange: true });
   }
 

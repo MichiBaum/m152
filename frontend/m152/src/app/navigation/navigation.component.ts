@@ -2,7 +2,7 @@ import {Component, OnInit} from '@angular/core';
 import {TranslateService} from '@ngx-translate/core';
 import {MenuItem} from 'primeng';
 import {LanguageConfig} from '../core/language.config';
-import {RouternavigationService} from "../core/services/routernavigation.service";
+import {RouternavigationService} from '../core/services/routernavigation.service';
 
 @Component({
   selector: 'app-navigation',

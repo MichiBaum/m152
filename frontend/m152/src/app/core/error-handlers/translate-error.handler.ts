@@ -7,7 +7,7 @@ export class TranslateErrorHandler implements MissingTranslationHandler {
   constructor() { }
 
   handle(params: MissingTranslationHandlerParams) {
-    console.log(params)
+    console.log(params);
     return params.key;
   }
 }
