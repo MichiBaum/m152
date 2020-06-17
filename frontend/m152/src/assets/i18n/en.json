@@ -7,19 +7,25 @@
     "title": "M152",
     "nav": "navigation"
   },
+  "general": {
+    "translation-title": "Translation",
+    "translation-description": "This application / website was written in German. All other languages that are available have not been translated by humans and may therefore contain translation errors."
+  },
   "navigation": {
     "home": "home",
     "timeline": "timeline",
     "imprint": "imprint"
   },
-  "impress": {
-    "contact-address-title": "Contact address",
+  "owner": {
     "name": "Michael Baumberger",
     "address": "Via Calundis, 39",
     "city": "7013 Domat/Ems",
     "country": "Switzerland",
+    "email": "michael_baumberger@gmx.ch"
+  },
+  "impress": {
+    "contact-address-title": "Contact address",
     "email-title": "E-mail:",
-    "email": "michael_baumberger@gmx.ch",
     "disclaimer-of-liability-title": "Disclaimer of liability",
     "disclaimer-of-liability-1": "The author assumes no liability for the correctness, accuracy, timeliness, reliability and completeness of the information.",
     "disclaimer-of-liability-2": "Liability claims against the author due to material or immaterial damage resulting from the access or use or non-use of the published information, misuse of the connection or technical faults are excluded.",
