@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ImprintComponent } from './imprint.component';
 import {TranslateModule} from '@ngx-translate/core';
+import {CardModule} from "primeng";
 
 @NgModule({
   declarations: [
@@ -9,7 +10,8 @@ import {TranslateModule} from '@ngx-translate/core';
   ],
   imports: [
     CommonModule,
-    TranslateModule
+    TranslateModule,
+    CardModule
   ],
   exports: [
     ImprintComponent
