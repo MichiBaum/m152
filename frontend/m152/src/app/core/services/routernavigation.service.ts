@@ -20,4 +20,7 @@ export class RouternavigationService {
     this.router.navigate(['/imprint'], { skipLocationChange: true });
   }
 
+  fileformatsNavigate() {
+    this.router.navigate(['/fileformats'], { skipLocationChange: true });
+  }
 }

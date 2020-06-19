@@ -49,6 +49,14 @@ export class NavigationComponent implements OnInit {
         }
       } as MenuItem,
       {
+        label: this.translate.instant('navigation.fileformats'),
+        icon: 'pi pi-file-o',
+        command: () => {
+          this.sidebarVisible = false;
+          this.routernavigationService.fileformatsNavigate();
+        }
+      } as MenuItem,
+      {
         label: this.translate.instant('navigation.imprint'),
         icon: 'pi pi-info',
         command: () => {

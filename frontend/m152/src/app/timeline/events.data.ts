@@ -68,5 +68,15 @@ export const events_data = [
     title: 'Impressum auf English übersetzt',
     start: '2020-06-16T09:00:00',
     end: '2020-06-15T09:50:00'
+  },
+  {
+    title: 'Icons erstellt',
+    start: '2020-06-19T09:00:00',
+    end: '2020-06-19T09:20:00'
+  },
+  {
+    title: 'File formats Seite erstellt',
+    start: '2020-06-19T13:10:00',
+    end: '2020-06-19T13:20:00'
   }
 ];

@@ -14,7 +14,8 @@
   "navigation": {
     "home": "home",
     "timeline": "timeline",
-    "imprint": "imprint"
+    "imprint": "imprint",
+    "fileformats": "file formats"
   },
   "owner": {
     "name": "Michael Baumberger",
