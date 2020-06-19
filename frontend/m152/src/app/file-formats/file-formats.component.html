@@ -1,12 +1,37 @@
 <div class="p-grid">
-  <div class="p-col-8 p-offset-2">
+  <div class="p-md-12 p-md-offset-0 p-sm-12 p-sm-offset-0 p-xl-8 p-xl-offset-2 p-lg-8 p-lg-offset-2">
 
-    <p-card>
-      <h2></h2>
+    <p-card header="{{'file-formats.title' | translate}}">
+      <div class="description-margin-bottom">
+        <p>{{'file-formats.description' | translate}}</p>
+      </div>
 
-      <video width="470" height="255" poster="assets/images/working.PNG" controls>
-        <source src="assets/videos/working.mp4" type="video/mp4">
-      </video>
+      <p-card>
+        <p>
+          <strong>{{'file-formats.video.title' | translate}}</strong>
+        </p>
+
+        <div class="description-margin-bottom">
+          <p>{{'file-formats.video.description' | translate}}</p>
+        </div>
+
+        <video class="p-justify-center" width="100%" poster="assets/images/working.PNG" controls autoplay="autoplay" loop="true">
+          <source src="assets/videos/working.mp4" type="video/mp4">
+        </video>
+
+        <pre>
+          <code class="language-markup" pCode>
+
+            &lt;!-- {{'file-formats.video.tag' | translate}} -->
+            &lt;video class="p-justify-center" width="100%" poster="assets/images/working.PNG" controls autoplay="autoplay" loop="true">
+              &lt;source src="assets/videos/working.mp4" type="video/mp4"> &lt;!-- {{'file-formats.video.mp4' | translate}} -->
+              &lt;!-- &lt;source src="video.ogg" type="video/ogg"> {{'file-formats.video.ogg' | translate}} -->
+              &lt;!-- &lt;source src="video.webm" type="video/webm"> {{'file-formats.video.webm' | translate}} -->
+            &lt;/video>
+
+          </code>
+        </pre>
+      </p-card>
 
     </p-card>
 

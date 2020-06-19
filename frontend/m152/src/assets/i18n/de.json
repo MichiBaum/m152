@@ -37,5 +37,17 @@
     "copyrights": "Die Urheber- und alle anderen Rechte an Inhalten, Bildern, Fotos oder anderen Dateien auf dieser Website, gehören ausschliesslich dem oben genannten Besitzer oder den speziell genannten Rechteinhabern. Für die Reproduktion jeglicher Elemente ist die schriftliche Zustimmung des Urheberrechtsträgers im Voraus einzuholen.",
     "source-title": "Quelle:",
     "source": "SwissAnwalt"
+  },
+  "file-formats": {
+    "title": "Dateiformate",
+    "description": "Hier wird gezeigt, wie man verschiedene Dateiformate in HTML5 einbindet.",
+    "video": {
+      "title": "Videoformat",
+      "description": "Hier wurde ein Video eingebunden. Unter dem Video sieht man den source code mit welchem das video eingebunden wurde.",
+      "mp4": "Das ist der source tag um ein MP4 einzubinden, welches gemacht wurde.",
+      "ogg": "Dies wäre der source tag um ein ogg einzubinden.",
+      "webm": "Dies wäre der source tag um ein webm einzubinden.",
+      "tag": "Dies ist der Video Tag und in diesem wurden die Klasse 'p-justify-center' verwendet um das Video zu Zentrieren. Dazu wurde der Tag poster verwendet um ein Vorschaubild des Videos einzubinden. Mit 'autoplay='autoplay', 'loop='true' wird das video sobald es geladen wurde automatisch abgespielt und es wird immer wieder wiederholt."
+    }
   }
 }

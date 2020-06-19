@@ -37,5 +37,17 @@
     "copyrights": "The copyrights and all other rights to content, images, photos or other files on this website belong exclusively to the above-mentioned owner or the specifically named rights holder. The written consent of the copyright holder must be obtained in advance for the reproduction of any elements.",
     "source-title": "Source:",
     "source": "SwissAnwalt"
+  },
+  "file-formats": {
+    "title": "File formats",
+    "description": "Here is shown how to integrate different file formats in HTML5.",
+    "video": {
+      "title": "Video format",
+      "description": "A video was integrated here. Below the video you can see the source code with which the video was integrated.",
+      "mp4": "This is the source tag to include an MP4 that has been made.",
+      "ogg": "This would be the source tag to include an ogg.",
+      "webm": "This would be the source tag to include a webm.",
+      "tag": "This is the video tag and the class 'p-justify-center' was used to center the video. The tag poster was used to include a preview image of the video. With 'autoplay =' autoplay ',' loop = 'true' the video is played automatically as soon as it has been loaded and it is repeated again and again."
+    }
   }
 }
