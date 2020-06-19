@@ -75,8 +75,18 @@ export const events_data = [
     end: '2020-06-19T09:20:00'
   },
   {
-    title: 'File formats Seite erstellt',
+    title: 'Fileformate Seite erstellt',
     start: '2020-06-19T13:10:00',
     end: '2020-06-19T13:20:00'
+  },
+  {
+    title: 'Fileformate Video eingebunden',
+    start: '2020-06-19T13:25:00',
+    end: '2020-06-19T15:20:00'
+  },
+  {
+    title: 'Fileformate Bilder eingebunden',
+    start: '2020-06-19T15:25:00',
+    end: '2020-06-19T16:20:00'
   }
 ];

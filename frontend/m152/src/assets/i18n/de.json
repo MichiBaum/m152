@@ -22,7 +22,11 @@
     "address": "Via Calundis, 39",
     "city": "7013 Domat/Ems",
     "country": "Schweiz",
-    "email": "michael_baumberger@gmx.ch"
+    "email": "michael_baumberger@gmx.ch",
+    "instagram": {
+      "description": "Dies sind alles Bilder, welche von mir selber aufgenommen wurden. Falls du weitere Bilder von mir sehen möchtest, klick auf den unten stehenden Link.",
+      "name": "michi_009"
+    }
   },
   "impress": {
     "contact-address-title": "Kontakt-Adresse",
@@ -48,6 +52,11 @@
       "ogg": "Dies wäre der source tag um ein ogg einzubinden.",
       "webm": "Dies wäre der source tag um ein webm einzubinden.",
       "tag": "Dies ist der Video Tag und in diesem wurden die Klasse 'p-justify-center' verwendet um das Video zu Zentrieren. Dazu wurde der Tag poster verwendet um ein Vorschaubild des Videos einzubinden. Mit 'autoplay='autoplay', 'loop='true' wird das video sobald es geladen wurde automatisch abgespielt und es wird immer wieder wiederholt."
+    },
+    "images": {
+      "title": "Bilder",
+      "description": "Hier werden einige Bildformate vorgestellt und gezeigt wie Bilder in HTML5 eingebunden werden.",
+      "tag": "Dies ist der Tag um ein Bild ganz einfach einzubinden."
     }
   }
 }

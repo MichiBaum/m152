@@ -22,7 +22,11 @@
     "address": "Via Calundis, 39",
     "city": "7013 Domat/Ems",
     "country": "Switzerland",
-    "email": "michael_baumberger@gmx.ch"
+    "email": "michael_baumberger@gmx.ch",
+    "instagram": {
+      "description": "These are all pictures that I have taken myself. If you want to see more pictures of me, click on the link below.",
+      "name": "michi_009"
+    }
   },
   "impress": {
     "contact-address-title": "Contact address",
@@ -48,6 +52,11 @@
       "ogg": "This would be the source tag to include an ogg.",
       "webm": "This would be the source tag to include a webm.",
       "tag": "This is the video tag and the class 'p-justify-center' was used to center the video. The tag poster was used to include a preview image of the video. With 'autoplay =' autoplay ',' loop = 'true' the video is played automatically as soon as it has been loaded and it is repeated again and again."
+    },
+    "images": {
+      "title": "Images",
+      "description": "Here some image formats are presented and shown how images are integrated in HTML5.",
+      "tag": "This is the tag to easily include an image."
     }
   }
 }
