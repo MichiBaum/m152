@@ -16,10 +16,8 @@ import {FormsModule} from '@angular/forms';
         CardModule,
         CodeHighlighterModule,
         TranslateModule,
-        RatingModule,
         FormsModule,
-        CarouselModule,
-        GalleriaModule
+        CarouselModule
     ]
 })
 export class FileFormatsModule { }

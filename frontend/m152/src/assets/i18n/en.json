@@ -67,5 +67,13 @@
       "src": "This is the tag to specify the source, i.e. the file.",
       "notCompatible": "This is displayed if a browser does not support music playback."
     }
+  },
+  "animations": {
+    "title": "animations",
+    "css3": {
+      "title": "CSS3 animations",
+      "description": "Here is shown how CSS3 animations are made.",
+      "letsGO": "Let's GOO!!"
+    }
   }
 }
