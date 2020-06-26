@@ -60,6 +60,37 @@
         </pre>
       </p-card>
 
+      <p-card>
+        <p>
+          <strong>{{'file-formats.sound.title' | translate}}</strong>
+        </p>
+
+        <div class="description-margin-bottom">
+          <p>{{'file-formats.sound.description' | translate}}</p>
+        </div>
+
+        <audio
+           controls
+           src="/sound/Krestovsky-01-Squirrel_Fever.mp3.mp3"
+        >
+          Ihr Browser kann dieses Tondokument nicht wiedergeben.<br>
+        </audio>
+
+        <pre>
+          <code class="language-markup" pCode>
+
+            &lt;!-- {{'file-formats.sound.tag' | translate}} -->
+            &lt;audio
+              controls &lt;!-- {{'file-formats.sound.controls' | translate}} -->
+              src="/sound/Krestovsky-01-Squirrel_Fever.mp3.mp3" &lt;!-- {{'file-formats.sound.src' | translate}} -->
+            >
+              Ihr Browser kann dieses Tondokument nicht wiedergeben.&lt;br> &lt;!-- {{'file-formats.sound.notCompatible' | translate}} -->
+            &lt;/audio>
+
+          </code>
+        </pre>
+      </p-card>
+
     </p-card>
 
   </div>
