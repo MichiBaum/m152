@@ -93,5 +93,15 @@ export const events_data = [
     title: 'Fileformate Sound eingebunden',
     start: '2020-06-26T13:10:00',
     end: '2020-06-26T13:30:00'
+  },
+  {
+    title: 'Animations Angular eingebunden',
+    start: '2020-06-26T13:50:00',
+    end: '2020-06-26T14:20:00'
+  },
+  {
+    title: 'Animations CSS3 eingebunden',
+    start: '2020-06-26T14:30:00',
+    end: '2020-06-26T15:10:00'
   }
 ];
