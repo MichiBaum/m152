@@ -88,5 +88,10 @@ export const events_data = [
     title: 'Fileformate Bilder eingebunden',
     start: '2020-06-19T15:25:00',
     end: '2020-06-19T16:20:00'
+  },
+  {
+    title: 'Fileformate Sound eingebunden',
+    start: '2020-06-26T13:10:00',
+    end: '2020-06-26T13:30:00'
   }
 ];
