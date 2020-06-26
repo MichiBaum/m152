@@ -5,7 +5,13 @@
   </div>
 
   <div class="p-sm-12 p-md-4 p-lg-4 p-xl-4 text-align-center">
-    <h1 class="header-title-color">{{"application.title" | translate}}</h1>
+    <h1
+      class="header-title-color"
+      [@slideLeftMiddleRight]="headerAnimationState"
+      (click)="toggleHeaderAnimationState()"
+    >
+      {{"application.title" | translate}}
+    </h1>
   </div>
 
   <div class="p-sm-12 p-md-4 p-lg-4 p-xl-4 text-align-center">
