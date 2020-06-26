@@ -23,4 +23,8 @@ export class RouternavigationService {
   fileformatsNavigate() {
     this.router.navigate(['/fileformats'], { skipLocationChange: true });
   }
+
+  animationsNavigate() {
+    this.router.navigate(['/animations'], { skipLocationChange: true });
+  }
 }

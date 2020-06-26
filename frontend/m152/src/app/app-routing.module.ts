@@ -4,6 +4,7 @@ import {HomeComponent} from './home/home.component';
 import {TimelineComponent} from './timeline/timeline.component';
 import {ImprintComponent} from './imprint/imprint.component';
 import {FileFormatsComponent} from './file-formats/file-formats.component';
+import {AnimationsComponent} from './animations/animations.component';
 
 const routes: Routes = [
   {
@@ -21,6 +22,10 @@ const routes: Routes = [
   {
     path: 'fileformats',
     component: FileFormatsComponent,
+  },
+  {
+    path: 'animations',
+    component: AnimationsComponent,
   }
 ];
 
