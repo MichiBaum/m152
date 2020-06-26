@@ -1,5 +1,5 @@
 <div class="p-grid">
-  <div class="p-md-12 p-md-offset-0 p-sm-12 p-sm-offset-0 p-xl-8 p-xl-offset-2 p-lg-8 p-lg-offset-2">
+  <div class="p-col-12 p-md-12 p-md-offset-0 p-sm-12 p-offset-0 p-sm-offset-0 p-xl-8 p-xl-offset-2 p-lg-8 p-lg-offset-2">
 
     <p-card header="{{'file-formats.title' | translate}}">
       <div class="description-margin-bottom">
@@ -42,9 +42,9 @@
           <p>{{'file-formats.images.description' | translate}}</p>
         </div>
 
-        <p-carousel [value]="imageNames" [numVisible]="1" [numScroll]="1" [autoplayInterval]="3000" [circular]="true">
-          <ng-template let-imageName pTemplate="item">
-            <img src="assets/images/{{imageName}}" width="100%">
+        <p-carousel [value]="images" [numVisible]="1" [numScroll]="1" [autoplayInterval]="3000" [circular]="true">
+          <ng-template let-item pTemplate="item">
+            <img [src]='item.src' [alt]="item.alt" style="width: 100%; display: block;"/>
           </ng-template>
         </p-carousel>
 

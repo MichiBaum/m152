@@ -7,16 +7,28 @@ import { Component, OnInit} from '@angular/core';
 })
 export class FileFormatsComponent implements OnInit {
 
-  imageNames: string[];
+  images: any[];
 
   constructor() { }
 
   ngOnInit(): void {
-    this.imageNames = [
-      'frog.JPG',
-      'waterdrop.JPG',
-      'rothorn_1.jpg',
-      'rothorn_2.jpg'
+    this.images = [
+      {
+        src: 'assets/images/frog.JPG',
+        alt: 'frog.JPG'
+      },
+      {
+        src: 'assets/images/waterdrop.JPG',
+        alt: 'waterdrop.JPG'
+      },
+      {
+        src: 'assets/images/rothorn_1.jpg',
+        alt: 'rothorn_1.jpg'
+      },
+      {
+        src: 'assets/images/rothorn_2.jpg',
+        alt: 'rothorn_2.jpg'
+      },
     ];
   }
 
