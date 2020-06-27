@@ -1,0 +1,26 @@
+<p-card>
+  <p>
+    <strong>{{'file-formats.images.title' | translate}}</strong>
+  </p>
+
+  <div class="description-margin-bottom">
+    <p>{{'file-formats.images.description' | translate}}</p>
+  </div>
+
+  <p-carousel [value]="images" [numVisible]="1" [numScroll]="1" [autoplayInterval]="3000" [circular]="true">
+    <ng-template let-item pTemplate="item">
+      <img [src]='item.src' [alt]="item.alt" style="width: 100%; display: block;"/>
+    </ng-template>
+  </p-carousel>
+
+  <p>{{'owner.instagram.description' | translate}}</p>
+  <a href="https://www.instagram.com/michi_009/" target="_blank">{{'owner.instagram.name' | translate}}</a>
+
+  <pre>
+    <code class="language-markup" pCode>
+
+      &lt;img src="'image_Path'" width="100%"> &lt;!-- {{'file-formats.images.tag' | translate}} -->
+
+    </code>
+  </pre>
+</p-card>

@@ -6,90 +6,11 @@
         <p>{{'file-formats.description' | translate}}</p>
       </div>
 
-      <p-card>
-        <p>
-          <strong>{{'file-formats.video.title' | translate}}</strong>
-        </p>
+      <app-video-file-formats></app-video-file-formats>
 
-        <div class="description-margin-bottom">
-          <p>{{'file-formats.video.description' | translate}}</p>
-        </div>
+      <app-image-file-formats></app-image-file-formats>
 
-        <video class="p-justify-center" width="100%" poster="assets/images/working.PNG" controls autoplay="autoplay" loop="true">
-          <source src="assets/videos/working.mp4" type="video/mp4">
-        </video>
-
-        <pre>
-          <code class="language-markup" pCode>
-
-            &lt;!-- {{'file-formats.video.tag' | translate}} -->
-            &lt;video class="p-justify-center" width="100%" poster="assets/images/working.PNG" controls autoplay="autoplay" loop="true">
-              &lt;source src="assets/videos/working.mp4" type="video/mp4"> &lt;!-- {{'file-formats.video.mp4' | translate}} -->
-              &lt;!-- &lt;source src="video.ogg" type="video/ogg"> {{'file-formats.video.ogg' | translate}} -->
-              &lt;!-- &lt;source src="video.webm" type="video/webm"> {{'file-formats.video.webm' | translate}} -->
-            &lt;/video>
-
-          </code>
-        </pre>
-      </p-card>
-
-      <p-card>
-        <p>
-          <strong>{{'file-formats.images.title' | translate}}</strong>
-        </p>
-
-        <div class="description-margin-bottom">
-          <p>{{'file-formats.images.description' | translate}}</p>
-        </div>
-
-        <p-carousel [value]="images" [numVisible]="1" [numScroll]="1" [autoplayInterval]="3000" [circular]="true">
-          <ng-template let-item pTemplate="item">
-            <img [src]='item.src' [alt]="item.alt" style="width: 100%; display: block;"/>
-          </ng-template>
-        </p-carousel>
-
-        <p>{{'owner.instagram.description' | translate}}</p>
-        <a href="https://www.instagram.com/michi_009/" target="_blank">{{'owner.instagram.name' | translate}}</a>
-
-        <pre>
-          <code class="language-markup" pCode>
-
-            &lt;img src="'image_Path'" width="100%"> &lt;!-- {{'file-formats.images.tag' | translate}} -->
-
-          </code>
-        </pre>
-      </p-card>
-
-      <p-card>
-        <p>
-          <strong>{{'file-formats.sound.title' | translate}}</strong>
-        </p>
-
-        <div class="description-margin-bottom">
-          <p>{{'file-formats.sound.description' | translate}}</p>
-        </div>
-
-        <audio
-           controls
-           src="/assets/sound/sound.mp3"
-        >
-          Ihr Browser kann dieses Tondokument nicht wiedergeben.<br>
-        </audio>
-
-        <pre>
-          <code class="language-markup" pCode>
-
-            &lt;!-- {{'file-formats.sound.tag' | translate}} -->
-            &lt;audio
-              controls &lt;!-- {{'file-formats.sound.controls' | translate}} -->
-              src="/assets/sound/Krestovsky-01-Squirrel_Fever.mp3" &lt;!-- {{'file-formats.sound.src' | translate}} -->
-            >
-              Ihr Browser kann dieses Tondokument nicht wiedergeben.&lt;br> &lt;!-- {{'file-formats.sound.notCompatible' | translate}} -->
-            &lt;/audio>
-
-          </code>
-        </pre>
-      </p-card>
+      <app-sound-file-formats></app-sound-file-formats>
 
     </p-card>
 

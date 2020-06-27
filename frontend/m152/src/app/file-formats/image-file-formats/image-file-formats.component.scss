@@ -1,0 +1,11 @@
+@import "./src/styles";
+
+:host {
+  ::ng-deep .ui-card {
+    margin-bottom: 3vh;
+  }
+}
+
+.description-margin-bottom{
+  margin-bottom: 2vh;
+}

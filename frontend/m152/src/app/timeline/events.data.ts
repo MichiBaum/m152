@@ -103,5 +103,10 @@ export const events_data = [
     title: 'Animations CSS3 eingebunden',
     start: '2020-06-26T14:30:00',
     end: '2020-06-26T15:10:00'
+  },
+  {
+    title: 'Fileformate refactored',
+    start: '2020-06-27T07:40:00',
+    end: '2020-06-27T08:20:00'
   }
 ];
