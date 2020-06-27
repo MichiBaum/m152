@@ -3,61 +3,7 @@
 
     <p-card header="{{'animations.title' | translate}}">
 
-      <p-card>
-        <p>
-          <strong>{{'animations.css3.title' | translate}}</strong>
-        </p>
-
-        <div class="description-margin-bottom">
-          <p>{{'animations.css3.description' | translate}}</p>
-        </div>
-
-        <div class="p-grid margin-top-left">
-          <div class="flip-scale-up-hor p-align-center">
-            {{'animations.css3.letsGO' | translate}}
-          </div>
-        </div>
-
-        <pre> <!-- TODO have to set width because mobileview -->
-          <code class="language-css" pCode>
-
-            .flip-scale-up-hor &#123;
-              -webkit-animation: flip-scale-up-hor 0.5s linear infinite both;
-              animation: flip-scale-up-hor 0.5s linear infinite both;
-            &#125;
-
-            @-webkit-keyframes flip-scale-up-hor &#123;
-              0% &#123;
-                -webkit-transform: scale(1) rotateX(0);
-                transform: scale(1) rotateX(0);
-              &#125;
-              50% &#123;
-                -webkit-transform: scale(2.5) rotateX(-90deg);
-                transform: scale(2.5) rotateX(-90deg);
-              &#125;
-              100% &#123;
-                -webkit-transform: scale(1) rotateX(-180deg);
-                transform: scale(1) rotateX(-180deg);
-              &#125;
-            &#125;
-            @keyframes flip-scale-up-hor &#123;
-              0% &#123;
-                -webkit-transform: scale(1) rotateX(0);
-                transform: scale(1) rotateX(0);
-              &#125;
-              50% &#123;
-                -webkit-transform: scale(2.5) rotateX(-90deg);
-                transform: scale(2.5) rotateX(-90deg);
-              &#125;
-              100% &#123;
-                -webkit-transform: scale(1) rotateX(-180deg);
-                transform: scale(1) rotateX(-180deg);
-              &#125;
-            &#125;
-
-          </code>
-        </pre>
-      </p-card>
+      <app-css3-animations></app-css3-animations>
 
     </p-card>
 
