@@ -62,9 +62,9 @@
     "sound": {
       "title": "Music files",
       "description": "Here a music file was integrated in HTML5. Below it is shown how the file was integrated.",
-      "tag": "This is the tag to include an MP3 file.",
-      "controls": "This must be set so that the user can run / stop playback and adjust the volume.",
-      "src": "This is the tag to specify the source, i.e. the file.",
+      "tag": "audio: This is the tag to include an MP3 file.",
+      "controls": "control: This must be set so that the user can run / stop playback and adjust the volume.",
+      "src": "src: This is the tag to specify the source, i.e. the file.",
       "notCompatible": "This is displayed if a browser does not support music playback."
     }
   },

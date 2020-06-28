@@ -62,9 +62,9 @@
     "sound": {
       "title": "Musikdateien",
       "description": "Hier wurde eine Musikdatei in HTML5 eingebunden. Darunter ist aufgezeigt, wie die Datei eingebunden wurde.",
-      "tag": "Dies ist der Tag um eine MP3 Datei einzubinden.",
-      "controls": "Dies muss gesetzt sein, damit der User die Wiedergabe laufen/stoppen lassen kann und die Lautstärke einstellen.",
-      "src": "Die ist der Tag um die Source, also die Datei, anzugeben.",
+      "tag": "audio: Dies ist der Tag um eine MP3 Datei einzubinden.",
+      "controls": "control: Dies muss gesetzt sein, damit der User die Wiedergabe laufen/stoppen lassen kann und die Lautstärke einstellen.",
+      "src": "src: Die ist der Tag um die Source, also die Datei, anzugeben.",
       "notCompatible": "Dies wird angezeigt, wenn ein Browser die Musikwiedergabe nicht unterstützt."
     }
   },
