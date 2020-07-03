@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import 'prismjs/components/prism-css.min';
 
 @Component({
   selector: 'app-svg-animations',

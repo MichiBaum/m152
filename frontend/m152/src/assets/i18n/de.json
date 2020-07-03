@@ -78,6 +78,10 @@
     "svg": {
       "title": "SVG Animationen",
       "description": "Hier wird gezeigt wie SVG Animationen gemacht werden."
+    },
+    "angular": {
+      "title": "Angular Animationen",
+      "description": "Um die Angular Animation zu sehen, drücken Sie auf den Titel der Webseite 'M152'. Der Code welcher Benutzt wird ist unten aufgeführt."
     }
   }
 }

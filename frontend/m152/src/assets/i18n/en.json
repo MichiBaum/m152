@@ -78,6 +78,10 @@
     "svg": {
       "title": "SVG animations",
       "description": "Here is shown how SVG animations are made."
+    },
+    "angular": {
+      "title": "Angular animations",
+      "description": "To see the Angular animation, click on the title of the website 'M152'. The code that is used is listed below."
     }
   }
 }

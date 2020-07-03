@@ -1,0 +1,54 @@
+<p-card>
+  <p>
+    <strong>{{'animations.angular.title' | translate}}</strong>
+  </p>
+
+  <div class="description-margin-bottom">
+    <p>{{'animations.angular.description' | translate}}</p>
+  </div>
+
+  <pre> <!-- TODO have to set width because mobileview -->
+    <code class="language-typescript" pCode>
+@Component(&#123;
+  selector: 'app-header',
+  template: '
+      &lt;h1
+        [@slideLeftMiddleRight]="headerAnimationState"
+        (click)="toggleHeaderAnimationState()"
+      >
+        M152
+      &lt;/h1>',
+  styleUrls: ['./header.component.scss'],
+  animations: [
+    trigger('slideLeftMiddleRight', [
+      state('left', style(&#123;transform: 'translateX(-30%) rotate(-10deg)'})),
+      state('middle', style(&#123;transform: 'translateX(0%) rotate(0deg)'})),
+      state('right', style(&#123;transform: 'translateX(30%) rotate(10deg)'})),
+      transition('left => middle', animate('500ms ease-in')),
+      transition('middle => right', animate('500ms ease-in')),
+      transition('right => left', animate('500ms ease-in'))
+    ])
+  ]
+})
+export class AngularAnimationsComponent implements OnInit &#123;
+
+  headerAnimationState = 'middle';
+
+  constructor() &#123; }
+
+  ngOnInit(): void &#123; }
+
+  toggleHeaderAnimationState() &#123;
+      if (this.headerAnimationState === 'left') &#123;
+      this.headerAnimationState = 'middle';
+    } else if (this.headerAnimationState === 'middle') &#123;
+      this.headerAnimationState = 'right';
+    } else if (this.headerAnimationState === 'right') &#123;
+      this.headerAnimationState = 'left';
+    }
+  }
+
+}
+    </code>
+  </pre>
+</p-card>
