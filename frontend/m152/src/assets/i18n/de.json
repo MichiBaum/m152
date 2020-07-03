@@ -87,7 +87,7 @@
       "title": "HTML5 Canvas",
       "description": "Hier wurde eine Uhr in HTML5 Canvas eingebunden.",
       "html-integration": "Im HTML wurde das Canvas definiert.",
-      "typescipt-integration": "Dies ist der Typescript/Javascript Code welcher für die Uhr verwendet wurde."
+      "typescript-integration": "Dies ist der Typescript/Javascript Code welcher für die Uhr verwendet wurde."
     }
   }
 }

@@ -123,5 +123,10 @@ export const events_data = [
     title: 'Animations HTML5 Canvas eingebunden',
     start: '2020-07-03T14:20:00',
     end: '2020-07-03T15:30:00'
+  },
+  {
+    title: 'Fixed sound loading bug',
+    start: '2020-07-03T15:40:00',
+    end: '2020-07-03T15:50:00'
   }
 ];

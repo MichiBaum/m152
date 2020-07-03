@@ -87,7 +87,7 @@
       "title": "HTML5 Canvas",
       "description": "Here a clock was integrated in HTML5 canvas.",
       "html-integration": "The canvas was defined in HTML.",
-      "typescipt-integration": "This is the typescript / javascript code used for the clock."
+      "typescript-integration": "This is the typescript / javascript code used for the clock."
     }
   }
 }
