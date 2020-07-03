@@ -6,6 +6,7 @@ import {CardModule, CodeHighlighterModule} from 'primeng';
 import {CSS3AnimationsComponent} from "./css3-animations/css3-animations.component";
 import {SvgAnimationsComponent} from './svg-animations/svg-animations.component';
 import {AngularAnimationsComponent} from './angular-animations/angular-animations.component';
+import {CanvasAnimationsComponent} from './canvas-animations/canvas-animations.component';
 
 
 
@@ -14,7 +15,8 @@ import {AngularAnimationsComponent} from './angular-animations/angular-animation
     AnimationsComponent,
     CSS3AnimationsComponent,
     SvgAnimationsComponent,
-    AngularAnimationsComponent
+    AngularAnimationsComponent,
+    CanvasAnimationsComponent
   ],
   imports: [
     CommonModule,
@@ -26,7 +28,8 @@ import {AngularAnimationsComponent} from './angular-animations/angular-animation
     AnimationsComponent,
     CSS3AnimationsComponent,
     SvgAnimationsComponent,
-    AngularAnimationsComponent
+    AngularAnimationsComponent,
+    CanvasAnimationsComponent
   ]
 })
 export class AnimationsModule { }

@@ -1,0 +1,30 @@
+.margin-top-left{
+  margin-top: 2vh;
+  margin-left: 4vh;
+}
+
+:host {
+  ::ng-deep .ui-card {
+    margin-bottom: 3vh;
+  }
+}
+
+.description-margin-bottom{
+  margin-bottom: 2vh;
+}
+
+body{background-color: gray;}
+h1{
+  font-family: helvetica, serif;
+  font-size:2.5rem ;
+  color:black;
+  position: relative;
+  top:80px;
+  z-index: -1;
+}
+#canvas {
+  display:block;
+  margin:5vh auto;
+  border-radius:50%;
+  box-shadow: 0 5px 14px black;
+}

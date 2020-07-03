@@ -118,5 +118,10 @@ export const events_data = [
     title: 'Animations Angular eingebunden',
     start: '2020-07-03T13:50:00',
     end: '2020-07-03T14:15:00'
+  },
+  {
+    title: 'Animations HTML5 Canvas eingebunden',
+    start: '2020-07-03T14:20:00',
+    end: '2020-07-03T15:30:00'
   }
 ];

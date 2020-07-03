@@ -82,6 +82,12 @@
     "angular": {
       "title": "Angular Animationen",
       "description": "Um die Angular Animation zu sehen, drücken Sie auf den Titel der Webseite 'M152'. Der Code welcher Benutzt wird ist unten aufgeführt."
+    },
+    "canvas": {
+      "title": "HTML5 Canvas",
+      "description": "Hier wurde eine Uhr in HTML5 Canvas eingebunden.",
+      "html-integration": "Im HTML wurde das Canvas definiert.",
+      "typescipt-integration": "Dies ist der Typescript/Javascript Code welcher für die Uhr verwendet wurde."
     }
   }
 }
