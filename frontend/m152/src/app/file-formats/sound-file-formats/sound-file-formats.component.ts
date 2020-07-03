@@ -1,5 +1,4 @@
 import { Component, OnInit} from '@angular/core';
-import {environment} from '../../../environments/environment';
 
 @Component({
   selector: 'app-sound-file-formats',
@@ -9,12 +8,10 @@ import {environment} from '../../../environments/environment';
 export class SoundFileFormatsComponent implements OnInit {
 
   images: any[];
-  soundSrc: string;
 
   constructor() { }
 
   ngOnInit(): void {
-    this.soundSrc = environment.base_href + '/assets/sound/sound.mp3';
     this.images = [
       {
         src: 'assets/images/frog.JPG',
