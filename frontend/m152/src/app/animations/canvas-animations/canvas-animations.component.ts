@@ -53,10 +53,12 @@ export class CanvasAnimationsComponent implements OnInit {
       ctx.beginPath();
       ctx.arc(200, 200, 140, degToRad(270), degToRad((minutes * 6) - 90));
       ctx.stroke();
+
       // Seconds
       ctx.beginPath();
       ctx.arc(200, 200, 110, degToRad(270), degToRad((newSeconds * 6) - 90));
       ctx.stroke();
+
       // Date
       ctx.font = '20px Helvetica';
       ctx.fillStyle = '#28d1fa';
