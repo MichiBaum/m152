@@ -108,5 +108,15 @@ export const events_data = [
     title: 'Fileformate refactored',
     start: '2020-06-27T07:40:00',
     end: '2020-06-27T08:20:00'
+  },
+  {
+    title: 'Animations SVG eingebunden',
+    start: '2020-07-03T13:10:00',
+    end: '2020-07-03T13:50:00'
+  },
+  {
+    title: 'Animations Angular eingebunden',
+    start: '2020-07-03T13:50:00',
+    end: '2020-07-03T14:15:00'
   }
 ];
