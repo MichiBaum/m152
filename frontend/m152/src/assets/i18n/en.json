@@ -74,6 +74,10 @@
       "title": "CSS3 animations",
       "description": "Here is shown how CSS3 animations are made.",
       "letsGO": "Let's GOO!!"
+    },
+    "svg": {
+      "title": "SVG animations",
+      "description": "Here is shown how SVG animations are made."
     }
   }
 }

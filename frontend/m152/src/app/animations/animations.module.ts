@@ -4,13 +4,15 @@ import { AnimationsComponent } from './animations.component';
 import {TranslateModule} from '@ngx-translate/core';
 import {CardModule, CodeHighlighterModule} from 'primeng';
 import {CSS3AnimationsComponent} from "./css3-animations/css3-animations.component";
+import {SvgAnimationsComponent} from './svg-animations/svg-animations.component';
 
 
 
 @NgModule({
   declarations: [
     AnimationsComponent,
-    CSS3AnimationsComponent
+    CSS3AnimationsComponent,
+    SvgAnimationsComponent
   ],
   imports: [
     CommonModule,
@@ -20,7 +22,8 @@ import {CSS3AnimationsComponent} from "./css3-animations/css3-animations.compone
   ],
   exports: [
     AnimationsComponent,
-    CSS3AnimationsComponent
+    CSS3AnimationsComponent,
+    SvgAnimationsComponent
   ]
 })
 export class AnimationsModule { }
