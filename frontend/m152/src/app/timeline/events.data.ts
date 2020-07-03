@@ -1,4 +1,4 @@
-export const events_data = [
+export const eventsData = [
   {
     title: 'Input Copyright',
     start: '2020-05-29T13:00:00',
