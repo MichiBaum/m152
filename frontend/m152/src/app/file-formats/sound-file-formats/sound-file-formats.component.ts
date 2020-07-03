@@ -1,4 +1,5 @@
 import { Component, OnInit} from '@angular/core';
+import {environment} from '../../../environments/environment';
 
 @Component({
   selector: 'app-sound-file-formats',
@@ -8,6 +9,7 @@ import { Component, OnInit} from '@angular/core';
 export class SoundFileFormatsComponent implements OnInit {
 
   images: any[];
+  soundBaseHref = environment.sound_base_href;
 
   constructor() { }
 

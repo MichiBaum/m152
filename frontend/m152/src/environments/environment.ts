@@ -4,7 +4,8 @@
 
 export const environment = {
   production: false,
-  base_href: '/'
+  base_href: '/',
+  sound_base_href: '/'
 };
 
 /*
