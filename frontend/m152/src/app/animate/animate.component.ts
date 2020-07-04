@@ -9,6 +9,7 @@ import { beat, bounce, headShake, heartBeat, pulse, rubberBand, shake, swing, wo
 import { bumpIn, bounceIn, fadeIn, flipIn, jackInTheBox, landing, rollIn, zoomIn } from './entrances';
 import { bounceOut, fadeOut, hinge, rollOut, zoomOut } from './exits';
 
+interface IParam {timing: string; delay: string; }
 export type wmAnimateSpeed = 'slower'|'slow'|'normal'|'fast'|'faster';
 export type wmAnimations =
   // Attention seekers
@@ -40,7 +41,7 @@ export class AnimateComponent implements OnInit, OnDestroy {
   private get idle() { return { value: `idle-${this.animate}` }; }
   private get play() {
 
-    const params = {};
+    const params = {} as IParam;
     // Builds the params object, so, leaving to the default values when undefined
     if (!!this.timing) { params.timing = this.timing; }
     if (!!this.delay) { params.delay = this.delay; }
