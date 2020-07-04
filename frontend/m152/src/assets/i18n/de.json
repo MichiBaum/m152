@@ -70,6 +70,7 @@
   },
   "animations": {
     "title": "Animationen",
+    "description": "Hier wird gezeigt wie verschiedene Arten von Animationen gemacht werden.",
     "css3": {
       "title": "CSS3 Animationen",
       "description": "Hier wird gezeigt wie CSS3 Animationen gemacht werden.",

@@ -70,6 +70,7 @@
   },
   "animations": {
     "title": "animations",
+    "description": "Here is shown how different types of animations are made.",
     "css3": {
       "title": "CSS3 animations",
       "description": "Here is shown how CSS3 animations are made.",
