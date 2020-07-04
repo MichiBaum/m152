@@ -21,6 +21,7 @@ import {NavigationModule} from './navigation/navigation.module';
 import {ImprintModule} from './imprint/imprint.module';
 import {FileFormatsModule} from './file-formats/file-formats.module';
 import {AnimationsModule} from './animations/animations.module';
+import {AnimateModule} from './animate/animate.module';
 
 export function TranslateLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -57,7 +58,8 @@ registerLocaleData(localeEn);
     HeaderModule,
     ImprintModule,
     FileFormatsModule,
-    AnimationsModule
+    AnimationsModule,
+    AnimateModule
   ],
   providers: [
     LanguageConfig,
