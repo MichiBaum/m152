@@ -7,6 +7,7 @@ import {CSS3AnimationsComponent} from './css3-animations/css3-animations.compone
 import {SvgAnimationsComponent} from './svg-animations/svg-animations.component';
 import {AngularAnimationsComponent} from './angular-animations/angular-animations.component';
 import {CanvasAnimationsComponent} from './canvas-animations/canvas-animations.component';
+import {AnimateModule} from '../animate/animate.module';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import {CanvasAnimationsComponent} from './canvas-animations/canvas-animations.c
     CommonModule,
     TranslateModule,
     CardModule,
-    CodeHighlighterModule
+    CodeHighlighterModule,
+    AnimateModule
   ],
   exports: [
     AnimationsComponent,

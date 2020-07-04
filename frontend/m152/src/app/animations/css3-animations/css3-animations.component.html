@@ -1,20 +1,20 @@
 <p-card>
-  <p>
+  <p wmAnimate="fadeInRight" aos>
     <strong>{{'animations.css3.title' | translate}}</strong>
   </p>
 
   <div class="description-margin-bottom">
-    <p>{{'animations.css3.description' | translate}}</p>
+    <p wmAnimate="fadeInRight" aos>{{'animations.css3.description' | translate}}</p>
   </div>
 
   <div class="p-grid margin-top-left">
     <div class="flip-scale-up-hor p-align-center">
-      {{'animations.css3.letsGO' | translate}}
+      <p wmAnimate="fadeInRight" aos>{{'animations.css3.letsGO' | translate}}</p>
     </div>
   </div>
 
-  <pre> <!-- TODO have to set width because mobileview -->
-    <code class="language-css" pCode>
+  <pre wmAnimate="fadeInRight" aos> <!-- TODO have to set width because mobileview -->
+    <code class="language-css" pCode wmAnimate="fadeInRight" aos>
 
 .flip-scale-up-hor &#123;
   -webkit-animation: flip-scale-up-hor 0.5s linear infinite both;

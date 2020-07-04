@@ -1,18 +1,27 @@
 <p-card>
-  <p>
+  <p wmAnimate="fadeInRight" aos>
     <strong>{{'file-formats.video.title' | translate}}</strong>
   </p>
 
   <div class="description-margin-bottom">
-    <p>{{'file-formats.video.description' | translate}}</p>
+    <p wmAnimate="fadeInRight" aos>{{'file-formats.video.description' | translate}}</p>
   </div>
 
-  <video class="p-justify-center" width="100%" poster="assets/images/working.PNG" controls autoplay="autoplay" loop="true">
+  <video
+    class="p-justify-center"
+    width="100%"
+    poster="assets/images/working.PNG"
+    controls
+    autoplay="autoplay"
+    loop="true"
+    wmAnimate="fadeInRight"
+    aos
+  >
     <source src="assets/videos/working.mp4" type="video/mp4">
   </video>
 
-  <pre>
-    <code class="language-markup" pCode>
+  <pre wmAnimate="fadeInRight" aos>
+    <code class="language-markup" pCode wmAnimate="fadeInRight" aos>
 
 &lt;!-- {{'file-formats.video.tag' | translate}} -->
 &lt;video class="p-justify-center" width="100%" poster="assets/images/working.PNG" controls autoplay="autoplay" loop="true">

@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { ImprintComponent } from './imprint.component';
 import {TranslateModule} from '@ngx-translate/core';
 import {CardModule} from 'primeng';
+import {AnimateModule} from '../animate/animate.module';
 
 @NgModule({
   declarations: [
@@ -11,7 +12,8 @@ import {CardModule} from 'primeng';
   imports: [
     CommonModule,
     TranslateModule,
-    CardModule
+    CardModule,
+    AnimateModule
   ],
   exports: [
     ImprintComponent

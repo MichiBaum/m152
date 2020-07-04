@@ -1,10 +1,10 @@
 <p-card>
-  <p>
+  <p wmAnimate="fadeInRight" aos>
     <strong>{{'file-formats.images.title' | translate}}</strong>
   </p>
 
   <div class="description-margin-bottom">
-    <p>{{'file-formats.images.description' | translate}}</p>
+    <p wmAnimate="fadeInRight" aos>{{'file-formats.images.description' | translate}}</p>
   </div>
 
   <p-carousel [value]="images" [numVisible]="1" [numScroll]="1" [autoplayInterval]="3000" [circular]="true">
@@ -13,11 +13,11 @@
     </ng-template>
   </p-carousel>
 
-  <p>{{'owner.instagram.description' | translate}}</p>
-  <a href="https://www.instagram.com/michi_009/" target="_blank">{{'owner.instagram.name' | translate}}</a>
+  <p wmAnimate="fadeInRight" aos>{{'owner.instagram.description' | translate}}</p>
+  <a wmAnimate="fadeInRight" aos href="https://www.instagram.com/michi_009/" target="_blank">{{'owner.instagram.name' | translate}}</a>
 
-  <pre>
-    <code class="language-markup" pCode>
+  <pre wmAnimate="fadeInRight" aos>
+    <code class="language-markup" pCode wmAnimate="fadeInRight" aos>
 
 &lt;img src="'image_Path'" width="100%"> &lt;!-- {{'file-formats.images.tag' | translate}} -->
 

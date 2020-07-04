@@ -1,21 +1,23 @@
 <p-card>
-  <p>
+  <p wmAnimate="fadeInRight" aos>
     <strong>{{'file-formats.sound.title' | translate}}</strong>
   </p>
 
   <div class="description-margin-bottom">
-    <p>{{'file-formats.sound.description' | translate}}</p>
+    <p wmAnimate="fadeInRight" aos>{{'file-formats.sound.description' | translate}}</p>
   </div>
 
   <audio
      controls
      [src]="soundBaseHref + 'assets/sound/sound.mp3'"
+     wmAnimate="fadeInRight"
+     aos
   >
     Ihr Browser kann dieses Tondokument nicht wiedergeben.<br>
   </audio>
 
-  <pre>
-    <code class="language-markup" pCode>
+  <pre wmAnimate="fadeInRight" aos>
+    <code class="language-markup" pCode wmAnimate="fadeInRight" aos>
 
 &lt;!-- {{'file-formats.sound.tag' | translate}} -->
 &lt;!-- {{'file-formats.sound.controls' | translate}} -->

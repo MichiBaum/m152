@@ -7,6 +7,7 @@ import {FormsModule} from '@angular/forms';
 import {VideoFileFormatsComponent} from './video-file-formats/video-file-formats.component';
 import {ImageFileFormatsComponent} from './image-file-formats/image-file-formats.component';
 import {SoundFileFormatsComponent} from './sound-file-formats/sound-file-formats.component';
+import {AnimateModule} from '../animate/animate.module';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import {SoundFileFormatsComponent} from './sound-file-formats/sound-file-formats
     CodeHighlighterModule,
     TranslateModule,
     FormsModule,
-    CarouselModule
+    CarouselModule,
+    AnimateModule
   ],
   exports: [
     FileFormatsComponent,
