@@ -2,11 +2,11 @@ import { Injectable, ElementRef, NgZone, Inject, Optional } from '@angular/core'
 import { ScrollDispatcher, ViewportRuler } from '@angular/cdk/scrolling';
 import { Observable, BehaviorSubject, of, OperatorFunction } from 'rxjs';
 import { map, startWith, distinctUntilChanged, take, scan, switchMap, debounceTime, shareReplay } from 'rxjs/operators';
-import { AnimateConfig, ANIMATE_CONFIG, animateConfigFactory } from './animate.config'
+import { AnimateConfig, ANIMATE_CONFIG, animateConfigFactory } from './animate.config';
 
 /** Configures alternative containers for AOS triggering */
 export interface AnimateOptions {
-  
+
   root?: Element;
   left?: number;
   top?: number;
@@ -38,31 +38,31 @@ export class AnimateService {
   }
 
   constructor(private scroll: ScrollDispatcher, private viewPort: ViewportRuler, private zone: NgZone,
-  @Optional() @Inject(ANIMATE_CONFIG) private config?: AnimateConfig) {
+              @Optional() @Inject(ANIMATE_CONFIG) private config?: AnimateConfig) {
 
     // Gets the module configuration
     this.config = animateConfigFactory(config);
 
-    // Computes a common view observable to support the 'scrolling' triggering method 
-    this.view$ = this.options$.pipe( 
-      // Tracks for viewport changes giving it 100ms time to accurately update for orientation changes  
-      switchMap( options => viewPort.change(100).pipe( 
+    // Computes a common view observable to support the 'scrolling' triggering method
+    this.view$ = this.options$.pipe(
+      // Tracks for viewport changes giving it 100ms time to accurately update for orientation changes
+      switchMap( options => viewPort.change(100).pipe(
         // Starts with a value
-        startWith( null ), 
+        startWith( null ),
         // Gets the viewport
         map( () => {
-          // Picks the ClientRect of the relevant container 
-          const rt = (options.root instanceof Element) ? options.root.getBoundingClientRect() : this.viewPort.getViewportRect(); 
+          // Picks the ClientRect of the relevant container
+          const rt = (options.root instanceof Element) ? options.root.getBoundingClientRect() : this.viewPort.getViewportRect();
           // Combines the various options to build the final container
           const left = rt.left + (options.left || this.config.offsetLeft || 0);
           const top = rt.top + (options.top || this.config.offsetTop || 0);
           const right = rt.right + (options.right || this.config.offsetRight || 0);
           const bottom = rt.bottom + (options.bottom || this.config.offsetBottom || 0);
-          // Returns the reultins client rect 
+          // Returns the reultins client rect
           return { top, left, bottom, right, height: bottom - top, width: right - left };
         }),
         // Debounces to aggregate fast changes (like during orientation changes)
-        debounceTime(20), 
+        debounceTime(20),
       )),
       // Makes all the component to share the same viewport values
       shareReplay(1)
@@ -72,24 +72,24 @@ export class AnimateService {
   // Triggers the animation
   public trigger(elm: ElementRef<HTMLElement>, threshold: number): OperatorFunction<boolean, boolean> {
 
-    // Waits until the zone is stable once, aka the render is complete so the element to measure is there 
-    return source => this.zone.onStable.pipe( 
+    // Waits until the zone is stable once, aka the render is complete so the element to measure is there
+    return source => this.zone.onStable.pipe(
       // Waits just once
       take(1),
       // Triggers the play and replay requests
       switchMap( () => source ),
       // Triggers upon the most suitable method
-      switchMap( trigger => 
+      switchMap( trigger =>
         // Simply return the sourced trigger when threshold is 0
         (threshold <= 0) ? of(trigger) : (
           // Check upon the configured method otherwise
-          this.useIntersectionObserver ? 
+          this.useIntersectionObserver ?
           // Triggers upon element intersection (IntersectionObserver API)
-          this.intersecting(elm, threshold) : 
+          this.intersecting(elm, threshold) :
           // Triggers upon cdk/scrolling
-          this.scrolling(elm ,threshold)
+          this.scrolling(elm , threshold)
         )
-      ) 
+      )
     );
   }
 
@@ -101,7 +101,7 @@ export class AnimateService {
       map( options => {
         // Identifies an optional element to be used as the container
         const root = options.root || null;
-        // Merges the margins from both the global config and the local options 
+        // Merges the margins from both the global config and the local options
         const top = options.top || this.config.offsetTop || 0;
         const right = options.right || this.config.offsetRight || 0;
         const bottom = options.bottom || this.config.offsetBottom || 0;
@@ -122,16 +122,16 @@ export class AnimateService {
     return new Observable<boolean>( subscriber => {
       // Creates a single entry observer
       const observer = new IntersectionObserver( entries => {
-        // Monitors the only enry intesection ratio 
+        // Monitors the only enry intesection ratio
         const ratio = entries[0].intersectionRatio;
         // Emits true whenever the intersection cross the threashold (making sure to run in the angular zone)
-        if(ratio >= threshold) { this.zone.run( () => subscriber.next(true) ); }
+        if (ratio >= threshold) { this.zone.run( () => subscriber.next(true) ); }
         // Emits false whenever the intersection cross back to full invisibility (making sure to run in the angular zone)
-        if(ratio <= 0) { this.zone.run( () => subscriber.next(false) ); }
+        if (ratio <= 0) { this.zone.run( () => subscriber.next(false) ); }
       // Initializes the observer with the given parameters
       }, { ...options, threshold: [ 0, threshold ] });
 
-      // Starts observing the target element 
+      // Starts observing the target element
       observer.observe(elm.nativeElement);
       // Disconnects when unsubscribed
       return () => observer.disconnect();
@@ -148,7 +148,7 @@ export class AnimateService {
       switchMap( () => this.visibility(elm) ),
       // Applies an hysteresys, so, to trigger the animation on based on the treshold while off on full invisibility
       scan((result, visiblility) => (visiblility >= threshold) || (result && visiblility > 0), false),
-      // Distincts the resulting triggers 
+      // Distincts the resulting triggers
       distinctUntilChanged(),
       // Runs within the angular zone to trigger change detection back on
       source => new Observable( subscriber => source.subscribe( value => this.zone.run( () => subscriber.next(value) ) ))
@@ -163,11 +163,11 @@ export class AnimateService {
 
       // Gets the element's bounding rect
       const rect = elm && elm.nativeElement && elm.nativeElement.getBoundingClientRect();
-      if(!rect) { return 0; }
+      if (!rect) { return 0; }
 
       // Return 1.0 when the element is fully within the viewport
-      if(rect.left > view.left - 1 && rect.top > view.top - 1 && rect.right < view.right + 1 && rect.bottom < view.bottom + 1) { 
-        return 1; 
+      if (rect.left > view.left - 1 && rect.top > view.top - 1 && rect.right < view.right + 1 && rect.bottom < view.bottom + 1) {
+        return 1;
       }
 
       // Computes the intersection area otherwise
@@ -175,7 +175,7 @@ export class AnimateService {
       const b = Math.max(0, Math.min(rect.right, view.right) - Math.max(rect.left, view.left));
       const c = Math.max(0, Math.min(rect.bottom, view.bottom) - Math.max(rect.top, view.top));
 
-      // Returns the amount of visible area 
+      // Returns the amount of visible area
       return Math.round(b * c / a * 10) / 10;
     }));
   }

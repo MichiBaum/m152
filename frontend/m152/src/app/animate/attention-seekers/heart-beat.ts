@@ -6,7 +6,7 @@ export const heartBeat = [
 
     style('*'),
 
-    animate('{{timing}} {{delay}} ease-in-out', 
+    animate('{{timing}} {{delay}} ease-in-out',
 
       keyframes([
         style({ transform: 'scale(1)', offset: 0 }),
@@ -15,7 +15,7 @@ export const heartBeat = [
         style({ transform: 'scale(1.3)', offset: 0.42 }),
         style({ transform: 'scale(1)', offset: 0.70 })
       ])
-      
+
     )], { params: { timing: '1s', delay: '' }}
   )
 ];

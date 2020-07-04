@@ -8,9 +8,9 @@ export const bounceIn = [
   state('idle-bounceInUp', style({ opacity: 0 }) ),
   state('idle-bounceInRight', style({ opacity: 0 }) ),
 
-  transition('* => bounceIn', 
+  transition('* => bounceIn',
 
-      animate('{{timing}} {{delay}} cubic-bezier(0.215, 0.61, 0.355, 1)', 
+      animate('{{timing}} {{delay}} cubic-bezier(0.215, 0.61, 0.355, 1)',
 
         keyframes([
           style({ opacity: 0, transform: 'scale(0.3)', offset: 0 }),
@@ -20,13 +20,13 @@ export const bounceIn = [
           style({ transform: 'scale(0.97)', offset: 0.8 }),
           style({ opacity: 1, transform: 'scale(1)', offset: 1 })
         ])
-        
+
       ), { params: { timing: '750ms', delay: '' }}
     ),
 
-    transition('* => bounceInDown', 
+    transition('* => bounceInDown',
 
-      animate('{{timing}} {{delay}} cubic-bezier(0.215, 0.61, 0.355, 1)', 
+      animate('{{timing}} {{delay}} cubic-bezier(0.215, 0.61, 0.355, 1)',
 
         keyframes([
           style({ opacity: 0, transform: 'translateY(-100%)', offset: 0 }),
@@ -35,13 +35,13 @@ export const bounceIn = [
           style({ transform: 'translateY(5px)', offset: 0.9 }),
           style({ opacity: 1, transform: 'translateY(0)', offset: 1 })
         ])
-        
+
       ), { params: { timing: '1s', delay: '' }}
     ),
 
-    transition('* => bounceInLeft', 
+    transition('* => bounceInLeft',
 
-      animate('{{timing}} {{delay}} cubic-bezier(0.215, 0.61, 0.355, 1)', 
+      animate('{{timing}} {{delay}} cubic-bezier(0.215, 0.61, 0.355, 1)',
 
         keyframes([
           style({ opacity: 0, transform: 'translateX(-100%)', offset: 0 }),
@@ -50,13 +50,13 @@ export const bounceIn = [
           style({ transform: 'translateX(5px)', offset: 0.9 }),
           style({ opacity: 1, transform: 'translateX(0)', offset: 1 })
         ])
-        
+
       ), { params: { timing: '1s', delay: '' }}
     ),
 
-    transition('* => bounceInUp', 
+    transition('* => bounceInUp',
 
-      animate('{{timing}} {{delay}} cubic-bezier(0.215, 0.61, 0.355, 1)', 
+      animate('{{timing}} {{delay}} cubic-bezier(0.215, 0.61, 0.355, 1)',
 
         keyframes([
           style({ opacity: 0, transform: 'translateY(100%)', offset: 0 }),
@@ -65,13 +65,13 @@ export const bounceIn = [
           style({ transform: 'translateY(-5px)', offset: 0.9 }),
           style({ opacity: 1, transform: 'translateY(0)', offset: 1 })
         ])
-        
+
       ), { params: { timing: '1s', delay: '' }}
     ),
 
-    transition('* => bounceInRight', 
+    transition('* => bounceInRight',
 
-      animate('{{timing}} {{delay}} cubic-bezier(0.215, 0.61, 0.355, 1)', 
+      animate('{{timing}} {{delay}} cubic-bezier(0.215, 0.61, 0.355, 1)',
 
         keyframes([
           style({ opacity: 0, transform: 'translateX(100%)', offset: 0 }),
@@ -80,7 +80,7 @@ export const bounceIn = [
           style({ transform: 'translateX(-5px)', offset: 0.9 }),
           style({ opacity: 1, transform: 'translateX(0)', offset: 1 })
         ])
-        
+
       ), { params: { timing: '1s', delay: '' }}
     )
 ];

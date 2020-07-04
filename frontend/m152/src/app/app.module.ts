@@ -14,7 +14,6 @@ import {LanguageConfig} from './core/language.config';
 import {appInitializerProviders} from './core/app-initializer-provider';
 import {GlobalErrorHandler} from './core/error-handlers/global-error.handler';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {CodeHighlighterModule} from 'primeng';
 import {HeaderModule} from './header/header.module';
 import {TimelineModule} from './timeline/timeline.module';
 import {NavigationModule} from './navigation/navigation.module';

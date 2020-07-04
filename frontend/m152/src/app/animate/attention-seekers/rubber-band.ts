@@ -6,7 +6,7 @@ export const rubberBand = [
 
     style('*'),
 
-    animate('{{timing}} {{delay}} ease-in-out', 
+    animate('{{timing}} {{delay}} ease-in-out',
 
       keyframes([
         style({ transform: 'scale3d(1, 1, 1)', offset: 0 }),
@@ -17,7 +17,7 @@ export const rubberBand = [
         style({ transform: 'scale3d(1.05, 0.95, 1)', offset: 0.75 }),
         style({ transform: 'scale3d(1, 1, 1)', offset: 1 }),
       ])
-      
+
     )], { params: { timing: '1s', delay: ''}}
   )
 ];

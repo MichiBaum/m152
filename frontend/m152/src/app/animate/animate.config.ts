@@ -4,7 +4,7 @@ import { InjectionToken } from '@angular/core';
 export interface AnimateConfig {
 
   triggerMode: 'scrolling'|'intersectionObserver'|'auto';
-  
+
   offsetTop?: number;
   offsetRight?: number;
   offsetBottom?: number;
@@ -19,19 +19,17 @@ export function animateConfigFactory(value?: AnimateConfig): AnimateConfig {
   // Starts with the given mode defaulting to auto detection
   let triggerMode = value && value.triggerMode || 'auto';
 
-  if(triggerMode === 'auto' || triggerMode === 'intersectionObserver') {
+  if (triggerMode === 'auto' || triggerMode === 'intersectionObserver') {
 
-    // Checks for Browser IntersectionObserver support  
+    // Checks for Browser IntersectionObserver support
     const ioSupported = 'IntersectionObserver' in window &&
                         'IntersectionObserverEntry' in window &&
                         'intersectionRatio' in window.IntersectionObserverEntry.prototype;
 
     // Applies the best mode
     triggerMode = ioSupported ? 'intersectionObserver' : 'scrolling';
-  }
-  // Ensure to use scrolling otherwise
-  else { triggerMode = 'scrolling'; }
+  } else { triggerMode = 'scrolling'; }
 
-  // Returns the config object 
+  // Returns the config object
   return { ...value, triggerMode };
 }

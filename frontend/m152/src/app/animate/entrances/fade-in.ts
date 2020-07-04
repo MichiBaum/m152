@@ -11,7 +11,7 @@ export const fadeIn = [
   transition('* => fadeIn', [
 
     style({ opacity: 0 }),
-    
+
     animate('{{timing}} {{delay}} ease-in', style('*'))
 
   ], { params: { timing: '1s', delay: '' }} ),
@@ -47,5 +47,5 @@ export const fadeIn = [
     animate('{{timing}} {{delay}} ease-in', style('*'))
 
   ], { params: { timing: '1s', delay: '' }} ),
-  
+
 ];

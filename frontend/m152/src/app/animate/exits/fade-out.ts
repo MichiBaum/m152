@@ -39,5 +39,5 @@ export const fadeOut = [
     animate('{{timing}} {{delay}} ease-out', style({ opacity: 0, transform: 'translateY(-20px)' }))
 
   ], { params: { timing: '1s', delay: '' }} )
-  
+
 ];

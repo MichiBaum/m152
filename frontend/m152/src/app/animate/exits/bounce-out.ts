@@ -14,7 +14,7 @@ export const bounceOut = [
 
     style({ opacity: 1 }),
 
-    animate('{{timing}} {{delay}} ease-out', 
+    animate('{{timing}} {{delay}} ease-out',
 
       keyframes([
         style({ transform: 'scale(0.9)', offset: 0.2 }),
@@ -29,7 +29,7 @@ export const bounceOut = [
 
     style({ opacity: 1 }),
 
-    animate('{{timing}} {{delay}} ease-out', 
+    animate('{{timing}} {{delay}} ease-out',
 
       keyframes([
         style({ transform: 'translateY(10px)', offset: 0.2 }),
@@ -44,7 +44,7 @@ export const bounceOut = [
 
     style({ opacity: 1 }),
 
-    animate('{{timing}} {{delay}} ease-out', 
+    animate('{{timing}} {{delay}} ease-out',
 
       keyframes([
         style({ transform: 'translateY(-10px)', offset: 0.2 }),
@@ -59,7 +59,7 @@ export const bounceOut = [
 
     style({ opacity: 1 }),
 
-    animate('{{timing}} {{delay}} ease-out', 
+    animate('{{timing}} {{delay}} ease-out',
 
       keyframes([
         style({ transform: 'translateX(-20px)', offset: 0.2 }),
@@ -72,7 +72,7 @@ export const bounceOut = [
 
     style({ opacity: 1 }),
 
-    animate('{{timing}} {{delay}} ease-out', 
+    animate('{{timing}} {{delay}} ease-out',
 
       keyframes([
         style({ transform: 'translateX(20px)', offset: 0.2 }),

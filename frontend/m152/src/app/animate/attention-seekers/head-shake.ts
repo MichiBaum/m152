@@ -5,8 +5,8 @@ export const headShake = [
   transition('* => headShake', [
 
     style('*'),
-    
-    animate('{{timing}} {{delay}} ease-in-out', 
+
+    animate('{{timing}} {{delay}} ease-in-out',
 
       keyframes([
         style({ transform: 'translateX(0)', offset: 0 }),

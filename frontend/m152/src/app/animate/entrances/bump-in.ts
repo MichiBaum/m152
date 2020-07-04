@@ -7,8 +7,8 @@ export const bumpIn = [
   transition('* => bumpIn', [
 
     style({ transform: 'scale(0.5)', opacity: 0 }),
-    
-    animate("{{timing}} {{delay}} cubic-bezier(.8, -0.6, 0.2, 1.5)", 
+
+    animate('{{timing}} {{delay}} cubic-bezier(.8, -0.6, 0.2, 1.5)',
 
       style({ transform: 'scale(1)', opacity: 1 }))
 

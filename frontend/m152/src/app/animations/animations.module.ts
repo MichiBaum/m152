@@ -8,8 +8,6 @@ import {SvgAnimationsComponent} from './svg-animations/svg-animations.component'
 import {AngularAnimationsComponent} from './angular-animations/angular-animations.component';
 import {CanvasAnimationsComponent} from './canvas-animations/canvas-animations.component';
 
-
-
 @NgModule({
   declarations: [
     AnimationsComponent,

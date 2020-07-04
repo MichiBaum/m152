@@ -1,10 +1,10 @@
-import { state, animate, style, transition, keyframes } from '@angular/animations';
+import { animate, style, transition, keyframes } from '@angular/animations';
 
 export const shake = [
 
   transition('* => shake', [
     style('*'),
-    animate('{{timing}} {{delay}} ease-in-out', 
+    animate('{{timing}} {{delay}} ease-in-out',
       keyframes([
         style({ transform: 'translateX(0)', offset: 0 }),
         style({ transform: 'translateX(-10px)', offset: 0.1 }),

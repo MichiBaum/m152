@@ -1,10 +1,10 @@
-import { state, animate, style, transition, keyframes } from '@angular/animations';
+import { animate, style, transition, keyframes } from '@angular/animations';
 
 export const swing = [
 
   transition('* => swing', [
     style({ transformOrigin: 'top center' }),
-    animate('{{timing}} {{delay}} ease-in-out', 
+    animate('{{timing}} {{delay}} ease-in-out',
       keyframes([
         style({ transform: 'rotate3d(0, 0, 1, 0deg)', offset: 0 }),
         style({ transform: 'rotate3d(0, 0, 1, 15deg)', offset: 0.2 }),

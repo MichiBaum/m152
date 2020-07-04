@@ -8,8 +8,6 @@ import {VideoFileFormatsComponent} from './video-file-formats/video-file-formats
 import {ImageFileFormatsComponent} from './image-file-formats/image-file-formats.component';
 import {SoundFileFormatsComponent} from './sound-file-formats/sound-file-formats.component';
 
-
-
 @NgModule({
   declarations: [
     FileFormatsComponent,

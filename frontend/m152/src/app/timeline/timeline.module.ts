@@ -3,8 +3,6 @@ import { CommonModule } from '@angular/common';
 import {TimelineComponent} from './timeline.component';
 import {FullCalendarModule} from 'primeng';
 
-
-
 @NgModule({
   declarations: [
     TimelineComponent

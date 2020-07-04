@@ -1,10 +1,10 @@
-import { state, animate, style, transition, keyframes } from '@angular/animations';
+import { animate, style, transition, keyframes } from '@angular/animations';
 
 export const jello = [
 
   transition('* => jello', [
     style({ transformOrigin: 'center' }),
-    animate('{{timing}} {{delay}} ease-in-out', 
+    animate('{{timing}} {{delay}} ease-in-out',
       keyframes([
         style({ transform: 'skewX(0) skewY(0)', offset: 0 }),
         style({ transform: 'skewX(0) skewY(0)', offset: 0.111 }),

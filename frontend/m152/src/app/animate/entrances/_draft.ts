@@ -5,7 +5,7 @@ export const draft = [
   state('idle-draft', style({ opacity: 0 }) ),
   transition('* => draft', [
     style('*'),
-    animate('{{timing}} {{delay}} ease-in', 
+    animate('{{timing}} {{delay}} ease-in',
       keyframes([
         style({ transform: '', offset: 0 }),
         style({ transform: '', offset: 0.1 }),

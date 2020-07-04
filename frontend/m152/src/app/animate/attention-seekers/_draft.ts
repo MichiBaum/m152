@@ -1,10 +1,10 @@
-import { state, animate, style, transition, keyframes } from '@angular/animations';
+import { animate, style, transition, keyframes } from '@angular/animations';
 
 export const draft = [
 
   transition('* => draft', [
     style('*'),
-    animate('{{timing}} {{delay}} ease-in-out', 
+    animate('{{timing}} {{delay}} ease-in-out',
       keyframes([
         style({ transform: '', offset: 0 }),
         style({ transform: '', offset: 0.1 }),

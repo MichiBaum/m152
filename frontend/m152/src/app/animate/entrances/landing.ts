@@ -1,4 +1,4 @@
-import { state, animate, style, transition, keyframes } from '@angular/animations';
+import { state, animate, style, transition } from '@angular/animations';
 
 export const landing = [
 
@@ -7,7 +7,7 @@ export const landing = [
     style({
       transform: 'scale(1.2)',
       opacity: 0
-    }), 
+    }),
     animate('{{timing}} {{delay}} ease', style('*'))
   ], { params: { timing: '2s', delay: '' }})
 ];

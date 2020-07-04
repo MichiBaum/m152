@@ -9,9 +9,9 @@ export const zoomIn = [
   state('idle-zoomInUp', style({ opacity: 0 }) ),
   state('idle-zoomInRight', style({ opacity: 0 }) ),
 
-  transition('* => zoomIn', 
+  transition('* => zoomIn',
 
-    animate('{{timing}} {{delay}} ease-in', 
+    animate('{{timing}} {{delay}} ease-in',
 
       keyframes([
         style({ opacity: 0, transform: 'scale(0.3)' }),
@@ -22,21 +22,21 @@ export const zoomIn = [
     ), { params: { timing: '1s', delay: '' }}
   ),
 
-  transition('* => zoomInDown', 
+  transition('* => zoomInDown',
 
-    animate('{{timing}} {{delay}} ease-in', 
+    animate('{{timing}} {{delay}} ease-in',
 
       keyframes([
-        style({ 
-          opacity: 0, 
-          transform: 'scale(0.1) translateY(-1000px)', 
-          animationTimingFunction:'cubic-bezier(0.55, 0.055, 0.675, 0.19)', 
-          offset: 0 
+        style({
+          opacity: 0,
+          transform: 'scale(0.1) translateY(-1000px)',
+          animationTimingFunction: 'cubic-bezier(0.55, 0.055, 0.675, 0.19)',
+          offset: 0
         }),
-        style({ 
-          opacity: 1, 
-          transform: 'scale(0.475) translateY(60px)', 
-          animationTimingFunction:'ubic-bezier(0.175, 0.885, 0.32, 1)', 
+        style({
+          opacity: 1,
+          transform: 'scale(0.475) translateY(60px)',
+          animationTimingFunction: 'ubic-bezier(0.175, 0.885, 0.32, 1)',
           offset: 0.6
         }),
         style({ opacity: 1, transform: 'scale(1) translateY(0)', offset: 1 })
@@ -45,21 +45,21 @@ export const zoomIn = [
     ), { params: { timing: '1s', delay: '' }}
   ),
 
-  transition('* => zoomInLeft', 
+  transition('* => zoomInLeft',
 
-    animate('{{timing}} {{delay}} ease-in', 
+    animate('{{timing}} {{delay}} ease-in',
 
       keyframes([
-        style({ 
-          opacity: 0, 
-          transform: 'scale(0.1) translateX(-1000px)', 
-          animationTimingFunction:'cubic-bezier(0.55, 0.055, 0.675, 0.19)', 
-          offset: 0 
+        style({
+          opacity: 0,
+          transform: 'scale(0.1) translateX(-1000px)',
+          animationTimingFunction: 'cubic-bezier(0.55, 0.055, 0.675, 0.19)',
+          offset: 0
         }),
-        style({ 
-          opacity: 1, 
-          transform: 'scale(0.475) translateX(60px)', 
-          animationTimingFunction:'ubic-bezier(0.175, 0.885, 0.32, 1)', 
+        style({
+          opacity: 1,
+          transform: 'scale(0.475) translateX(60px)',
+          animationTimingFunction: 'ubic-bezier(0.175, 0.885, 0.32, 1)',
           offset: 0.6
         }),
         style({ opacity: 1, transform: 'scale(1) translateX(0)', offset: 1 })
@@ -68,21 +68,21 @@ export const zoomIn = [
     ), { params: { timing: '1s', delay: '' }}
   ),
 
-  transition('* => zoomInUp', 
+  transition('* => zoomInUp',
 
-    animate('{{timing}} {{delay}} ease-in', 
+    animate('{{timing}} {{delay}} ease-in',
 
       keyframes([
-        style({ 
-          opacity: 0, 
-          transform: 'scale(0.1) translateY(1000px)', 
-          animationTimingFunction:'cubic-bezier(0.55, 0.055, 0.675, 0.19)', 
-          offset: 0 
+        style({
+          opacity: 0,
+          transform: 'scale(0.1) translateY(1000px)',
+          animationTimingFunction: 'cubic-bezier(0.55, 0.055, 0.675, 0.19)',
+          offset: 0
         }),
-        style({ 
-          opacity: 1, 
-          transform: 'scale(0.475) translateY(-60px)', 
-          animationTimingFunction:'ubic-bezier(0.175, 0.885, 0.32, 1)', 
+        style({
+          opacity: 1,
+          transform: 'scale(0.475) translateY(-60px)',
+          animationTimingFunction: 'ubic-bezier(0.175, 0.885, 0.32, 1)',
           offset: 0.6
         }),
         style({ opacity: 1, transform: 'scale(1) translateY(0)', offset: 1 })
@@ -91,21 +91,21 @@ export const zoomIn = [
     ), { params: { timing: '1s', delay: '' }}
   ),
 
-  transition('* => zoomInRight', 
+  transition('* => zoomInRight',
 
-    animate('{{timing}} {{delay}} ease-in', 
+    animate('{{timing}} {{delay}} ease-in',
 
       keyframes([
-        style({ 
-          opacity: 0, 
-          transform: 'scale(0.1) translateX(1000px)', 
-          animationTimingFunction:'cubic-bezier(0.55, 0.055, 0.675, 0.19)', 
-          offset: 0 
+        style({
+          opacity: 0,
+          transform: 'scale(0.1) translateX(1000px)',
+          animationTimingFunction: 'cubic-bezier(0.55, 0.055, 0.675, 0.19)',
+          offset: 0
         }),
-        style({ 
-          opacity: 1, 
-          transform: 'scale(0.475) translateX(-60px)', 
-          animationTimingFunction:'ubic-bezier(0.175, 0.885, 0.32, 1)', 
+        style({
+          opacity: 1,
+          transform: 'scale(0.475) translateX(-60px)',
+          animationTimingFunction: 'ubic-bezier(0.175, 0.885, 0.32, 1)',
           offset: 0.6
         }),
         style({ opacity: 1, transform: 'scale(1) translateX(0)', offset: 1 })
