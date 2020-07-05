@@ -13,6 +13,7 @@
   },
   "navigation": {
     "home": "home",
+    "concept": "concept",
     "timeline": "timeline",
     "imprint": "imprint",
     "fileformats": "file formats",

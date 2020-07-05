@@ -5,8 +5,17 @@ import {TimelineComponent} from './timeline/timeline.component';
 import {ImprintComponent} from './imprint/imprint.component';
 import {FileFormatsComponent} from './file-formats/file-formats.component';
 import {AnimationsComponent} from './animations/animations.component';
+import {ConceptComponent} from './concept/concept.component';
 
 const routes: Routes = [
+  {
+    path: '',
+    component: ConceptComponent,
+  },
+  {
+    path: 'concept',
+    component: ConceptComponent,
+  },
   {
     path: 'home',
     component: HomeComponent,

@@ -12,6 +12,10 @@ export class RouternavigationService {
     this.router.navigate(['/home'], {skipLocationChange: true});
   }
 
+  conceptNavigate() {
+    this.router.navigate(['/concept'], {skipLocationChange: true});
+  }
+
   timelineNavigate() {
     this.router.navigate(['/timeline'], { skipLocationChange: true });
   }

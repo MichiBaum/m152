@@ -41,6 +41,14 @@ export class NavigationComponent implements OnInit {
         }
       } as MenuItem,
       {
+        label: this.translate.instant('navigation.concept'),
+        icon: '',
+        command: () => {
+          this.sidebarVisible = false;
+          this.routernavigationService.homeNavigate();
+        }
+      } as MenuItem,
+      {
         label: this.translate.instant('navigation.timeline'),
         icon: 'pi pi-calendar',
         command: () => {
