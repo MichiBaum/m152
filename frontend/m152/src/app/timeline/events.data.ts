@@ -128,5 +128,15 @@ export const eventsData = [
     title: 'Fixed sound loading bug',
     start: '2020-07-03T15:40:00',
     end: '2020-07-03T15:50:00'
+  },
+  {
+    title: 'Button zum Code anzeigen',
+    start: '2020-07-05T09:30:00',
+    end: '2020-07-05T11:00:00'
+  },
+  {
+    title: 'Responsive ausser Canvas Uhr',
+    start: '2020-07-05T11:30:00',
+    end: '2020-07-05T12:30:00'
   }
 ];
