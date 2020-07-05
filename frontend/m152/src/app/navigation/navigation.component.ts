@@ -42,7 +42,7 @@ export class NavigationComponent implements OnInit {
       } as MenuItem,
       {
         label: this.translate.instant('navigation.concept'),
-        icon: '',
+        icon: 'fa fa-book',
         command: () => {
           this.sidebarVisible = false;
           this.routernavigationService.homeNavigate();
