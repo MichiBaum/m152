@@ -33,8 +33,9 @@
     <p wmAnimate="fadeInRight" aos>{{'animations.canvas.typescript-integration' | translate}}</p>
   </div>
 
-  <pre wmAnimate="fadeInRight" aos> <!-- TODO have to set width because mobileview -->
-    <code class="language-typescript" pCode>
+  <app-code>
+    <pre wmAnimate="fadeInRight" aos> <!-- TODO have to set width because mobileview -->
+      <code class="language-typescript" pCode>
 const canvas = document.getElementById('canvas') as HTMLCanvasElement;
 const ctx = canvas.getContext('2d');
 ctx.strokeStyle = '#28d1fa';
@@ -94,7 +95,8 @@ function renderTime() &#123;
 
 }
 setInterval(renderTime, 40);
-    </code>
-  </pre>
+      </code>
+    </pre>
+  </app-code>
 
 </p-card>
