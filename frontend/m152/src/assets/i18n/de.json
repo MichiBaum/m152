@@ -91,5 +91,12 @@
       "html-integration": "Im HTML wurde das Canvas definiert.",
       "typescript-integration": "Dies ist der Typescript/Javascript Code welcher für die Uhr verwendet wurde."
     }
+  },
+  "concept": {
+    "title": "Konzept",
+    "idea": {
+      "title": "Idee",
+      "description": "Die Idee ist es, das dies eine Webseite ist, welche dokumentiert wie man etwas macht, best practices zeigt, oder unterschiede von Dingen erklärt."
+    }
   }
 }

@@ -91,5 +91,12 @@
       "html-integration": "The canvas was defined in HTML.",
       "typescript-integration": "This is the typescript / javascript code used for the clock."
     }
+  },
+  "concept": {
+    "title": "Concept",
+    "idea": {
+      "title": "Idea",
+      "description": "The idea is that this is a website that documents how you do something, shows best practices, or explains differences between things."
+    }
   }
 }
