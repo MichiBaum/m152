@@ -45,7 +45,7 @@ export class NavigationComponent implements OnInit {
         icon: 'fa fa-book',
         command: () => {
           this.sidebarVisible = false;
-          this.routernavigationService.homeNavigate();
+          this.routernavigationService.conceptNavigate();
         }
       } as MenuItem,
       {
