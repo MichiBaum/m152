@@ -3,7 +3,8 @@
   "short_name": "m152",
   "theme_color": "#e91224",
   "background_color": "#fafafa",
-  "display": "standalone",
+  "display": "fullscreen",
+  "orientation": "portrait",
   "scope": "/m152",
   "start_url": "/m152",
   "icons": [
