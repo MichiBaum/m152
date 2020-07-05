@@ -65,7 +65,6 @@ registerLocaleData(localeEn);
     AnimateModule,
     CoreModule,
     ConceptModule,
-    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [
     LanguageConfig,
