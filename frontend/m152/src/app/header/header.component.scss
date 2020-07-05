@@ -19,6 +19,10 @@
     font-weight: bold;
   }
 
+  ::ng-deep .ui-dropdown{
+    min-width: 6.5em;
+  }
+
 }
 
 .header-shadow {
