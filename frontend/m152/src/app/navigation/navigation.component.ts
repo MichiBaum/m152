@@ -79,6 +79,15 @@ export class NavigationComponent implements OnInit {
           this.sidebarVisible = false;
           this.routernavigationService.imprintNavigate();
         }
+      } as MenuItem,
+      {
+        label: this.translate.instant('navigation.github'),
+        icon: 'fab fa-github',
+        command: () => {
+          this.sidebarVisible = false;
+          const url = 'https://github.com/MichiBaum/m152';
+          window.open(url, '_blank');
+        }
       } as MenuItem
     ] as MenuItem[];
   }
