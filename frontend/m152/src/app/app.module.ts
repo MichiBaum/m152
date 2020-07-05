@@ -23,6 +23,7 @@ import {AnimationsModule} from './animations/animations.module';
 import {AnimateModule} from './animate/animate.module';
 import {CoreModule} from './core/core.module';
 import {ConceptModule} from './concept/concept.module';
+import { ServiceWorkerModule } from '@angular/service-worker';
 
 export function TranslateLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -62,7 +63,8 @@ registerLocaleData(localeEn);
     AnimationsModule,
     AnimateModule,
     CoreModule,
-    ConceptModule
+    ConceptModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [
     LanguageConfig,
