@@ -34,7 +34,7 @@ export class NavigationComponent implements OnInit {
     this.navItems = [
       {
         label: this.translate.instant('navigation.home'),
-        icon: 'pi pi-home',
+        icon: 'fa fa-home',
         command: () => {
           this.sidebarVisible = false;
           this.routernavigationService.homeNavigate();
@@ -50,7 +50,7 @@ export class NavigationComponent implements OnInit {
       } as MenuItem,
       {
         label: this.translate.instant('navigation.timeline'),
-        icon: 'pi pi-calendar',
+        icon: 'fa fa-calendar',
         command: () => {
           this.sidebarVisible = false;
           this.routernavigationService.timelineNavigate();
@@ -58,7 +58,7 @@ export class NavigationComponent implements OnInit {
       } as MenuItem,
       {
         label: this.translate.instant('navigation.fileformats'),
-        icon: 'pi pi-file-o',
+        icon: 'fa fa-file',
         command: () => {
           this.sidebarVisible = false;
           this.routernavigationService.fileformatsNavigate();
@@ -74,7 +74,7 @@ export class NavigationComponent implements OnInit {
       } as MenuItem,
       {
         label: this.translate.instant('navigation.imprint'),
-        icon: 'pi pi-info',
+        icon: 'fa fa-copyright',
         command: () => {
           this.sidebarVisible = false;
           this.routernavigationService.imprintNavigate();
