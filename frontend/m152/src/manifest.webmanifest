@@ -6,7 +6,7 @@
   "display": "standalone",
   "orientation": "portrait",
   "scope": "/",
-  "start_url": "https://michibaum.ch/m152",
+  "start_url": "https://michibaum.ch/m152/",
   "icons": [
     {
       "src": "assets/icons/favicon.ico",
