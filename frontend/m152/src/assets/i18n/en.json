@@ -99,5 +99,14 @@
       "title": "Idea",
       "description": "The idea is that this is a website that documents how you do something, shows best practices, or explains differences between things."
     }
+  },
+  "calendar": {
+    "settings": {
+      "today": "today",
+      "month": "month",
+      "week": "week",
+      "day": "day",
+      "list": "list"
+    }
   }
 }

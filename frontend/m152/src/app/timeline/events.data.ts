@@ -141,7 +141,12 @@ export const eventsData = [
   },
   {
     title: 'Zu PWA (Progressiv Web App) gemacht',
-    start: '2020-07-06T8:00:00',
+    start: '2020-07-06T08:00:00',
+    end: '2020-07-06T15:00:00'
+  },
+  {
+    title: 'Kalender multilingual',
+    start: '2020-07-06T08:00:00',
     end: '2020-07-06T15:00:00'
   }
 ];

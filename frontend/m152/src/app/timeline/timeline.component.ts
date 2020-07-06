@@ -1,7 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit, ViewChild} from '@angular/core';
 import dayGridPlugin from '@fullcalendar/daygrid';
 import timeGridPlugin from '@fullcalendar/timegrid';
 import {eventsData} from './events.data';
+import {LanguageConfig} from '../core/language.config';
+import {TranslateService, TranslateStore} from '@ngx-translate/core';
 
 @Component({
   selector: 'app-timeline',
@@ -10,13 +12,25 @@ import {eventsData} from './events.data';
 })
 export class TimelineComponent implements OnInit {
 
-  events: any[];
+  constructor(
+    private languageConfig: LanguageConfig,
+    private translate: TranslateService
+  ) {
+    this.languageConfig.languageChanged.subscribe(() => {
+      this.initOptions();
+    });
+  }
 
+  events: any[];
+  @ViewChild('calendar') calendar;
   options: any;
 
-  constructor() { }
-
   ngOnInit(): void {
+    this.initOptions();
+    this.events = eventsData;
+  }
+
+  initOptions() {
     this.options = {
       plugins: [dayGridPlugin, timeGridPlugin],
       defaultDate: '2020-06-05',
@@ -26,10 +40,17 @@ export class TimelineComponent implements OnInit {
         center: 'title',
         right: 'dayGridMonth,dayGridWeek,timeGridDay'
       },
-      height: window.innerHeight / 100 * 80
+      height: window.innerHeight / 100 * 80,
+      locales: this.languageConfig.languages.map(value => value.isoCode) as string[],
+      locale: this.languageConfig.current.isoCode,
+      buttonText: {
+        today: this.translate.instant('calendar.settings.today'),
+        month: this.translate.instant('calendar.settings.month'),
+        week: this.translate.instant('calendar.settings.week'),
+        day: this.translate.instant('calendar.settings.day'),
+        list: this.translate.instant('calendar.settings.list')
+      }
     };
-
-    this.events = eventsData;
   }
 
 }
