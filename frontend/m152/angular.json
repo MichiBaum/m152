@@ -92,6 +92,7 @@
                   "maximumError": "10kb"
                 }
               ],
+              "baseHref": "/m152/",
               "serviceWorker": true,
               "ngswConfigPath": "src/ngsw-config.json"
             }
