@@ -6,7 +6,7 @@
   "display": "standalone",
   "orientation": "portrait",
   "scope": "/m152/",
-  "start_url": "/m152/",
+  "start_url": "/",
   "icons": [
     {
       "src": "assets/icons/favicon.ico",
