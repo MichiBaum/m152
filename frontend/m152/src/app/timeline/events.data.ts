@@ -138,5 +138,10 @@ export const eventsData = [
     title: 'Responsive ausser Canvas Uhr',
     start: '2020-07-05T11:30:00',
     end: '2020-07-05T12:30:00'
+  },
+  {
+    title: 'Zu PWA (Progressiv Web App) gemacht',
+    start: '2020-07-06T8:00:00',
+    end: '2020-07-06T15:00:00'
   }
 ];
