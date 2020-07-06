@@ -39,7 +39,6 @@ registerLocaleData(localeEn);
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    ServiceWorkerModule.register('/m152/ngsw-worker.js', { enabled: environment.production, registrationStrategy: 'registerImmediately' }),
     AppRoutingModule,
     HttpClientModule,
     TranslateModule,
