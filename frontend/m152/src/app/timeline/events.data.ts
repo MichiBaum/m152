@@ -146,7 +146,17 @@ export const eventsData = [
   },
   {
     title: 'Kalender multilingual',
-    start: '2020-07-06T08:00:00',
-    end: '2020-07-06T15:00:00'
+    start: '2020-07-06T16:00:00',
+    end: '2020-07-06T16:15:00'
+  },
+  {
+    title: 'Buggs beheben',
+    start: '2020-07-06T17:45:00',
+    end: '2020-07-06T19:00:00'
+  },
+  {
+    title: 'Kalendar auf Tag klicken hinzugefügt',
+    start: '2020-07-06T19:10:00',
+    end: '2020-07-06T19:50:00'
   }
 ];

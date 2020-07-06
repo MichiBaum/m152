@@ -1,9 +1,11 @@
-import {Component, OnInit, ViewChild} from '@angular/core';
+import {AfterViewInit, Component, OnInit, ViewChild} from '@angular/core';
 import dayGridPlugin from '@fullcalendar/daygrid';
 import timeGridPlugin from '@fullcalendar/timegrid';
+import interactionPlugin from '@fullcalendar/interaction';
 import {eventsData} from './events.data';
 import {LanguageConfig} from '../core/language.config';
-import {TranslateService, TranslateStore} from '@ngx-translate/core';
+import {TranslateService} from '@ngx-translate/core';
+import {FullCalendar} from 'primeng';
 
 @Component({
   selector: 'app-timeline',
@@ -12,6 +14,10 @@ import {TranslateService, TranslateStore} from '@ngx-translate/core';
 })
 export class TimelineComponent implements OnInit {
 
+  events: any[];
+  @ViewChild('calendar') calendar: FullCalendar;
+  options: any;
+
   constructor(
     private languageConfig: LanguageConfig,
     private translate: TranslateService
@@ -19,11 +25,8 @@ export class TimelineComponent implements OnInit {
     this.languageConfig.languageChanged.subscribe(() => {
       this.initOptions();
     });
-  }
 
-  events: any[];
-  @ViewChild('calendar') calendar;
-  options: any;
+  }
 
   ngOnInit(): void {
     this.initOptions();
@@ -32,7 +35,7 @@ export class TimelineComponent implements OnInit {
 
   initOptions() {
     this.options = {
-      plugins: [dayGridPlugin, timeGridPlugin],
+      plugins: [dayGridPlugin, timeGridPlugin, interactionPlugin],
       defaultDate: '2020-06-05',
       agenda: 'h:mm{ - h:mm}',
       header: {
@@ -51,8 +54,16 @@ export class TimelineComponent implements OnInit {
         week: this.translate.instant('calendar.settings.week'),
         day: this.translate.instant('calendar.settings.day'),
         list: this.translate.instant('calendar.settings.list')
+      },
+      dateClick: (e) =>  {
+        this.gotoDate(e.date as Date);
       }
     };
+  }
+
+  gotoDate(date: Date) {
+    this.calendar.getCalendar().gotoDate(date);
+    this.calendar.getCalendar().changeView('timeGridDay');
   }
 
 }
