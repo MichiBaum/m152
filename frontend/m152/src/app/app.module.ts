@@ -24,6 +24,7 @@ import {AnimateModule} from './animate/animate.module';
 import {CoreModule} from './core/core.module';
 import {ConceptModule} from './concept/concept.module';
 import { ServiceWorkerModule } from '@angular/service-worker';
+import {PwaModule} from './pwa/pwa.module';
 
 export function TranslateLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -65,6 +66,7 @@ registerLocaleData(localeEn);
     AnimateModule,
     CoreModule,
     ConceptModule,
+    PwaModule
   ],
   providers: [
     LanguageConfig,

@@ -18,7 +18,8 @@
     "imprint": "imprint",
     "fileformats": "file formats",
     "animations": "animations",
-    "github": "Github"
+    "github": "Github",
+    "pwa": "progressive web app"
   },
   "owner": {
     "name": "Michael Baumberger",

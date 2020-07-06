@@ -13,6 +13,7 @@ export class NavigationComponent implements OnInit {
 
   navItems: MenuItem[];
   sidebarVisible: boolean;
+  windowHeight;
 
   constructor(
     private translate: TranslateService,
@@ -23,6 +24,8 @@ export class NavigationComponent implements OnInit {
     this.languageConfig.languageChanged.subscribe(() => {
       this.setItems();
     });
+
+    this.windowHeight = window.innerHeight / 100 * 80;
 
   }
 
@@ -70,6 +73,14 @@ export class NavigationComponent implements OnInit {
         command: () => {
           this.sidebarVisible = false;
           this.routernavigationService.animationsNavigate();
+        }
+      } as MenuItem,
+      {
+        label: this.translate.instant('navigation.pwa'),
+        icon: 'fas fa-wifi',
+        command: () => {
+          this.sidebarVisible = false;
+          this.routernavigationService.pwaNavigate();
         }
       } as MenuItem,
       {

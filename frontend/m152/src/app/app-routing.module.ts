@@ -6,6 +6,7 @@ import {ImprintComponent} from './imprint/imprint.component';
 import {FileFormatsComponent} from './file-formats/file-formats.component';
 import {AnimationsComponent} from './animations/animations.component';
 import {ConceptComponent} from './concept/concept.component';
+import {PwaComponent} from './pwa/pwa.component';
 
 const routes: Routes = [
   {
@@ -35,6 +36,10 @@ const routes: Routes = [
   {
     path: 'animations',
     component: AnimationsComponent,
+  },
+  {
+    path: 'pwa',
+    component: PwaComponent,
   }
 ];
 

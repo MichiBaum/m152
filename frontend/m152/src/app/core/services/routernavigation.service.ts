@@ -31,4 +31,8 @@ export class RouternavigationService {
   animationsNavigate() {
     this.router.navigate(['/animations'], { skipLocationChange: true });
   }
+
+  pwaNavigate() {
+    this.router.navigate(['/pwa'], { skipLocationChange: true });
+  }
 }
