@@ -1,6 +1,6 @@
 {
   "$schema": "../node_modules/@angular/service-worker/config/schema.json",
-  "index": "/m152/index.html",
+  "index": "/index.html",
   "assetGroups": [
     {
       "name": "app",
@@ -21,7 +21,7 @@
       "resources": {
         "files": [
           "/assets/**",
-          "/*.(eot|svg|cur|jpg|png|webp|gif|otf|ttf|woff|woff2|ani)"
+          "/*.(eot|svg|cur|jpg|png|webp|gif|otf|ttf|woff|woff2|ani|mp3|mp4)"
         ]
       }
     }
