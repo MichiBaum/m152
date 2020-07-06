@@ -7,13 +7,11 @@ import { Component, OnInit} from '@angular/core';
 })
 export class CodeComponent implements OnInit {
 
-  icon: string;
   isColsed: boolean;
 
   constructor() { }
 
   ngOnInit(): void {
-    this.icon = 'pi pi-sort-down';
     this.isColsed = true;
   }
 
@@ -21,10 +19,8 @@ export class CodeComponent implements OnInit {
   changeState() {
     if (this.isColsed) {
       this.isColsed = false;
-      this.icon = 'pi pi-sort-up';
     } else {
       this.isColsed = true;
-      this.icon = 'pi pi-sort-down';
     }
   }
 }
