@@ -109,5 +109,60 @@
       "day": "day",
       "list": "list"
     }
+  },
+  "pwa": {
+    "title": "Progressive web app",
+    "description": "A PWA (Progressive Web App) has numerous features that a native app also has. Progressive web apps are mostly built like a normal website, i.e. from HTML5, CSS3 and Javascript. Service workers ensure offline functionality by caching the page. The HTTPS protocol is mandatory for communication with the web server.",
+    "functionality": {
+      "title": "functionality",
+      "description": "A progressive web app can be visited like any other website by calling up the URL. With the first call, a service worker is 'installed' in the browser. This caches all pages for which it is intended. There is a configuration file in which the developer can say what should be cached. To 'install' the website as an app, an icon is displayed in the address bar in the Chrome Desktop Browser. On the mobile phone there is usually a pop-up or a message at the bottom of the screen, which notifies you that the website can be added as an app.",
+      "serviceworker": {
+        "title": "Service worker",
+        "description": "A service worker is a Javascript that runs in the browser in the background and provides functions such as caching for offline use."
+      }
+    },
+    "characteristic": {
+      "title": "Characteristic",
+      "description": "In addition to the properties that a normal website provides, a progressive web app provides special functions that normally have native apps.",
+      "installation": {
+        "title": "Add-to homescreen / installability",
+        "description": "A progressive web app can be added to the home screen using an 'add-to homescreen' function. A manifest file is used to define a splash screen or the icon of the app, for example."
+      },
+      "notification": {
+        "title": "Push notifications",
+        "description": "A progressive web app can display push notifications in its notification bar, which normally only native apps can do and no websites."
+      },
+      "offline": {
+        "title": "Offline functionality",
+        "description": "With the caching functionality provided by the service worker, the PWA can also be available offline. This is easy with a progressive web app without a backend, but there are some problems."
+      }
+    },
+    "advantages": {
+      "title": "advantages",
+      "cost_reduction": {
+        "title": "Cost reduction",
+        "description": "Instead of several apps (Android, IOS, Windows and Web), a progressive web app only has to be developed once in one version. Another advantage is that Google or Apple does not deserve anything from in-app purchases."
+      },
+      "app_like": {
+        "title": "App-like design",
+        "description": "A good progressive web app has the same designs as a native app."
+      },
+      "hardware": {
+        "title": "Hardware access",
+        "description": "PWAs also offer the possibility of implementing various native functions. Sensor data and cameras can be accessed or push notifications can be created."
+      },
+      "release": {
+        "title": "Simplified publication",
+        "description": "Progressive web apps can go to the Google App Store, but don't have to go through the lengthy publishing process of Google Play, Windows Phone Apps or Apple's App Store."
+      },
+      "offline": {
+        "title": "Offline mode",
+        "description": "The Progressive Web App can also be made available offline by the service worker."
+      },
+      "performance": {
+        "title": "Improved performance",
+        "description": "PWAs are faster than common web apps. Conversions, user experience and retention rates benefit from this."
+      }
+    }
   }
 }

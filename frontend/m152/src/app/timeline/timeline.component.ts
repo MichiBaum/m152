@@ -43,6 +43,8 @@ export class TimelineComponent implements OnInit {
       height: window.innerHeight / 100 * 80,
       locales: this.languageConfig.languages.map(value => value.isoCode) as string[],
       locale: this.languageConfig.current.isoCode,
+      allDaySlot: false,
+      firstDay: 1,
       buttonText: {
         today: this.translate.instant('calendar.settings.today'),
         month: this.translate.instant('calendar.settings.month'),

@@ -109,5 +109,60 @@
       "day": "Tag",
       "list": "Liste"
     }
+  },
+  "pwa": {
+    "title": "Progressive Web App",
+    "description": "Eine PWA (Progressive Web App) hat zahlreiche Merkmale, welche eine Native App auch hat. Progressive Web Apps sind meistens wie eine normale Webseite aufgebaut, also aus Html5, CSS3 und Javascript. Durch Service Worker wird die Offline-Funktionalität gewährleistet, indem der Service Worker die Seite cached. Das HTTPS-Protokoll ist vorgeschrieben, für die komunikation mit dem Webserver.",
+    "functionality": {
+      "title": "Funktionsweise",
+      "description": "Eine Progressive Web App besucht man wie jede andere Webseite durch das Aufrufen der URL. Bei dem ersten Aufruf wird eine Service Worker im Browser 'installiert'. Dieser Cached alle Seiten, für welcher er bestimmt ist. Es gibt dazu eine Konfigurationsdatei in welcher der Entwickler sagen kann was gecached werden soll. Um die Webseite als App zu 'installieren' wird im Chrome Desktop Browser ein Icon in der Adressleiste angezeigt. Auf dem Handy kommt meistens ein Pop-Up oder eine Nachricht unten am Bildschirm, welche einem Aufmerksam macht, dass die Webseite als App hinzugefügt werden kann.",
+      "serviceworker": {
+        "title": "Service Worker",
+        "description": "Ein Service Worker ist ein Javascript, dass im Browser im Hintergrund läuft und funktionen wie das Caching zur Offline-Verwendbarkeit zur Verfügung stellt."
+      }
+    },
+    "characteristic": {
+      "title": "Charakteristik",
+      "description": "Neben den Eigenschften, welche eine normale Webseite zur Verfügung stellt, stellt eine Progressive Web App Sonderfunktionen bereit, welche normalerweise native Apps haben.",
+      "installation": {
+        "title": "Add-To-Homescreen/Installierbarkeit",
+        "description": "Eine Progressive Web App kann durch eine 'Add-To-Homescreen' funktion zum Homescreen hinzugefügt werden. Dabei wird eine Manifest-Datei verwendet um zum Beispiel einen Splash Screen oder das Icon der App zu definieren."
+      },
+      "notification": {
+        "title": "Push Benachrichtigungen",
+        "description": "Eine Progressive Web App kann Push-Benachrichtigungen in ihrer Benachrichtigungsleiste anzeigen, was normalerweise nur Native Apps können und keine Webseiten."
+      },
+      "offline": {
+        "title": "Offline-Funktionalität",
+        "description": "Mit der Caching Funktionalität, welche der Service Worker bereitstellt kann die PWA auch offline zur Verfügung stehen. Bei einer Progressive Web App ohne Backend ist dies leicht, kommen jedoch einige Probleme hinzu."
+      }
+    },
+    "advantages": {
+      "title": "Vorteile",
+      "cost_reduction": {
+        "title": "Kostenreduktion",
+        "description": "Anstelle von mehreren Apps (Android, IOS, Windows und Web) muss eine Progressive Web App nur einmal in einer Version entwickelt werden. Auch ein Vorteil ist, das an In-App-Käufen Google oder Apple nichts verdient."
+      },
+      "app_like": {
+        "title": "App-like Design",
+        "description": "Eine gute Progressive Web App hat die gleichen Designs wie eine Native App."
+      },
+      "hardware": {
+        "title": "Hardwarezugriff",
+        "description": "PWAs bieten ebenfalls die Möglichkeit, verschiedene native Funktionen zu implementieren. Es kann auf Sensorikdaten und Kameras zugegriffen werden oder Pushnotifications erstellt werden."
+      },
+      "release": {
+        "title": "Vereinfachte Veröffentlichung",
+        "description": "Progressive Web App können in den Google App Store, müssen jedoch nicht den langwierigen Veröffentlichungs Prozess von Google Play, Windows Phone Apps oder Apples App Store durchlaufen."
+      },
+      "offline": {
+        "title": "Offline-Modus",
+        "description": "Durch den Service Worker kann die Progressive Web App auch offline zur Verfügung stehen."
+      },
+      "performance": {
+        "title": "Verbesserte Performance",
+        "description": "PWA sind schneller als übliche Web-Apps. Davon profitieren Conversions, User Experience und Retention Rates."
+      }
+    }
   }
 }

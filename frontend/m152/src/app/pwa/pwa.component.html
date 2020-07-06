@@ -1,0 +1,202 @@
+<div class="p-grid">
+  <div class="p-md-12 p-md-offset-0 p-sm-12 p-sm-offset-0 p-xl-8 p-xl-offset-2 p-lg-8 p-lg-offset-2">
+
+    <p-card>
+
+      <h2 wmAnimate="fadeInRight" aos>
+        <strong>{{"pwa.title" | translate}}</strong>
+      </h2>
+
+      <p wmAnimate="fadeInRight" aos>
+        {{"pwa.description" | translate}}
+      </p>
+
+    </p-card>
+
+    <p-card>
+
+      <h3 wmAnimate="fadeInRight" aos>
+        <strong>{{"pwa.functionality.title" | translate}}</strong>
+      </h3>
+
+      <p wmAnimate="fadeInRight" aos>
+        {{"pwa.functionality.description" | translate}}
+      </p>
+
+      <app-code class="margin-bottom-2rem">
+        <pre wmAnimate="fadeInRight" aos>
+          <code class="language-json" pCode>
+&#123;
+  "$schema": "../node_modules/@angular/service-worker/config/schema.json",
+  "index": "/index.html",
+  "assetGroups": [
+    &#123;
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "resources": &#123;
+            "files": [
+              "/favicon.ico",
+              "/index.html",
+              "/manifest.webmanifest",
+              "/*.css",
+              "/*.js"
+            ]
+      }
+    }, &#123;
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "resources": &#123;
+            "files": [
+              "/assets/**",
+              "/*.(eot|svg|cur|jpg|png|webp|gif|otf|ttf|woff|woff2|ani|mp3|mp4)"
+            ]
+      }
+    }
+  ]
+}
+          </code>
+        </pre>
+      </app-code>
+
+      <p wmAnimate="fadeInRight" aos>
+        <strong>{{"pwa.functionality.serviceworker.title" | translate}}</strong>
+      </p>
+
+      <p wmAnimate="fadeInRight" aos>
+        {{"pwa.functionality.serviceworker.description" | translate}}
+      </p>
+
+    </p-card>
+
+    <p-card>
+
+      <h3 wmAnimate="fadeInRight" aos>
+        <strong>{{"pwa.characteristic.title" | translate}}</strong>
+      </h3>
+
+      <p wmAnimate="fadeInRight" aos class="margin-bottom-2rem">
+        {{"pwa.characteristic.description" | translate}}
+      </p>
+
+      <p wmAnimate="fadeInRight" aos>
+        <strong>{{"pwa.characteristic.installation.title" | translate}}</strong>
+      </p>
+
+      <p wmAnimate="fadeInRight" aos>
+        {{"pwa.characteristic.installation.description" | translate}}
+      </p>
+
+      <app-code class="margin-bottom-2rem">
+        <pre wmAnimate="fadeInRight" aos>
+          <code class="language-json" pCode>
+&#123;
+  "name": "M152",
+  "short_name": "M152",
+  "theme_color": "#e91224",
+  "background_color": "#fafafa",
+  "display": "standalone",
+  "orientation": "portrait",
+  "dir": "ltr",
+  "lang": "en",
+  "scope": "/m152/",
+  "start_url": "/m152/",
+  "icons": [
+    &#123;
+      "src": "assets/icons/favicon.ico",
+      "sizes": "64x64",
+      "type": "image/ico"
+    },
+    &#123;
+      "src": "assets/icons/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    &#123;
+      "src": "assets/icons/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    }
+  ]
+}
+          </code>
+        </pre>
+      </app-code>
+
+      <p wmAnimate="fadeInRight" aos>
+        <strong>{{"pwa.characteristic.notification.title" | translate}}</strong>
+      </p>
+
+      <p wmAnimate="fadeInRight" aos class="margin-bottom-2rem">
+        {{"pwa.characteristic.notification.description" | translate}}
+      </p>
+
+      <p wmAnimate="fadeInRight" aos>
+        <strong>{{"pwa.characteristic.offline.title" | translate}}</strong>
+      </p>
+
+      <p wmAnimate="fadeInRight" aos>
+        {{"pwa.characteristic.offline.description" | translate}}
+      </p>
+
+    </p-card>
+
+    <p-card>
+
+      <h3 wmAnimate="fadeInRight" aos>
+        <strong>{{"pwa.advantages.title" | translate}}</strong>
+      </h3>
+
+      <p wmAnimate="fadeInRight" aos>
+        <strong>{{"pwa.advantages.cost_reduction.title" | translate}}</strong>
+      </p>
+
+      <p wmAnimate="fadeInRight" aos class="margin-bottom-2rem">
+        {{"pwa.advantages.cost_reduction.description" | translate}}
+      </p>
+
+      <p wmAnimate="fadeInRight" aos>
+        <strong>{{"pwa.advantages.app_like.title" | translate}}</strong>
+      </p>
+
+      <p wmAnimate="fadeInRight" aos class="margin-bottom-2rem">
+        {{"pwa.advantages.app_like.description" | translate}}
+      </p>
+
+      <p wmAnimate="fadeInRight" aos>
+        <strong>{{"pwa.advantages.hardware.title" | translate}}</strong>
+      </p>
+
+      <p wmAnimate="fadeInRight" aos class="margin-bottom-2rem">
+        {{"pwa.advantages.hardware.description" | translate}}
+      </p>
+
+      <p wmAnimate="fadeInRight" aos>
+        <strong>{{"pwa.advantages.release.title" | translate}}</strong>
+      </p>
+
+      <p wmAnimate="fadeInRight" aos class="margin-bottom-2rem">
+        {{"pwa.advantages.release.description" | translate}}
+      </p>
+
+      <p wmAnimate="fadeInRight" aos>
+        <strong>{{"pwa.advantages.offline.title" | translate}}</strong>
+      </p>
+
+      <p wmAnimate="fadeInRight" aos class="margin-bottom-2rem">
+        {{"pwa.advantages.offline.description" | translate}}
+      </p>
+
+      <p wmAnimate="fadeInRight" aos>
+        <strong>{{"pwa.advantages.performance.title" | translate}}</strong>
+      </p>
+
+      <p wmAnimate="fadeInRight" aos>
+        {{"pwa.advantages.performance.description" | translate}}
+      </p>
+
+    </p-card>
+
+  </div>
+</div>
