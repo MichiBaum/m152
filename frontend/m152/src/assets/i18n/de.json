@@ -23,7 +23,8 @@
     "mockup": "Mockup",
     "styleguide": "Style Guide",
     "licenses": "Lizenzen",
-    "testing": "Testen"
+    "testing": "Testen",
+    "reflection": "Reflexion"
   },
   "owner": {
     "name": "Michael Baumberger",
@@ -227,6 +228,9 @@
       },
       "38": {
         "title": "Testen hinzugefügt"
+      },
+      "39": {
+        "title": "Reflexion hinzugefügt"
       }
     }
   },
@@ -342,5 +346,9 @@
         "text": "Dem neuen Werk muss eine neue Bedeutung zugesprochen werden können. Hier gilt es das Verhältnis des geschützten Materials zum eigenen zugefügten Inhalt zu beachten."
       }
     }
+  },
+  "reflection": {
+    "title": "Reflexion",
+    "description": "Dieses Modul war definitiv eines der besseren Module. Leider muss ich sagen, dass einige Teile des Moduls einem Entwickler im dritten Lehrjahr bekannt sein müssen. Zum Beispiel wie man ein Bild oder ein Video in HTML5 einbindet. Andere wiederum, wie zum Beispiel Animationen, habe ich neu kennengelernt, da ich selten mit Animationen Arbeite im Geschäft. Dort sind es meistens Business Applikationen und der Kunde zahlt nicht dafür, dass sich die Webseite bewegt. Da einige Teile etwas 'leicht/langweilig' waren, konnte ich mir selber noch eine Challenge setzten und zwar, dass meine Webseite eine PWA (Progressive Web App) ist und somit offline zur Verfügung steht. Meine letzten Worte sind nur, dass mir das Modul sehr gut gefiehl auch wenn es viel Inhalt hat."
   }
 }

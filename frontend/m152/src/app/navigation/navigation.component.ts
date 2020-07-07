@@ -124,6 +124,14 @@ export class NavigationComponent implements OnInit {
         }
       } as MenuItem,
       {
+        label: this.translate.instant('navigation.reflection'),
+        icon: 'fas fa-retweet',
+        command: () => {
+          this.sidebarVisible = false;
+          this.routernavigationService.reflectionNavigate();
+        }
+      } as MenuItem,
+      {
         label: this.translate.instant('navigation.github'),
         icon: 'fab fa-github',
         command: () => {

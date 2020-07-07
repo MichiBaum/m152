@@ -23,7 +23,8 @@
     "mockup": "mockup",
     "styleguide": "Style Guide",
     "licenses": "licenses",
-    "testing": "testing"
+    "testing": "testing",
+    "reflection": "reflection"
   },
   "owner": {
     "name": "Michael Baumberger",
@@ -227,6 +228,9 @@
       },
       "38": {
         "title": "testing implemented"
+      },
+      "39": {
+        "title": "reflection implemented"
       }
     }
   },
@@ -342,5 +346,9 @@
         "text": "The new work must have a new meaning. Here it is important to consider the ratio of the protected material to the content added."
       }
     }
+  },
+  "reflection": {
+    "title": "Reflection",
+    "description": "This module was definitely one of the better modules. Unfortunately I have to say that some parts of the module have to be known to a developer in the third year of training. For example how to embed an image or a video in HTML5. I got to know others, such as animations, because I rarely work with animations in business. There it is mostly business applications and the customer does not pay for the website to move. Since some parts were a bit 'easy / boring', I was able to set myself a challenge, namely that my website is a PWA (Progressive Web App) and is therefore available offline. My last words are just that I like the module very well, even if it has a lot of content."
   }
 }

@@ -51,4 +51,8 @@ export class RouternavigationService {
   testingNavigate() {
     this.router.navigate(['/testing'], { skipLocationChange: true });
   }
+
+  reflectionNavigate() {
+    this.router.navigate(['/reflection'], { skipLocationChange: true });
+  }
 }

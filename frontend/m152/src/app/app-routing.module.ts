@@ -11,6 +11,7 @@ import {MockupComponent} from './mockup/mockup.component';
 import {StyleguideComponent} from './styleguide/styleguide.component';
 import {LicensesComponent} from './licenses/licenses.component';
 import {TestingComponent} from './testing/testing.component';
+import {ReflectionComponent} from './reflection/reflection.component';
 
 const routes: Routes = [
   {
@@ -60,6 +61,10 @@ const routes: Routes = [
   {
     path: 'testing',
     component: TestingComponent,
+  },
+  {
+    path: 'reflection',
+    component: ReflectionComponent,
   }
 ];
 
