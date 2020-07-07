@@ -45,6 +45,10 @@ export class MockupComponent implements OnInit {
         link: 'https://desktop.github.com/'
       },
       {
+        name: 'Github',
+        link: 'https://github.com/'
+      },
+      {
         name: 'Visual Studio Code',
         link: 'https://code.visualstudio.com/'
       }

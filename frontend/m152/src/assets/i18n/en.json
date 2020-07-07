@@ -279,7 +279,7 @@
     },
     "others": {
       "title": "others",
-      "description": "I used other tools for this. Some are for programming, others for provisioning on the server etc."
+      "description": "I used other tools for this. Some are for programming, version controll, others for provisioning on the server etc."
     }
   }
 }
