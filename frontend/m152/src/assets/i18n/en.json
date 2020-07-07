@@ -108,6 +108,107 @@
       "week": "week",
       "day": "day",
       "list": "list"
+    },
+    "entries": {
+      "1": {
+        "title": "input copyright"
+      },
+      "2": {
+        "title": "website planing"
+      },
+      "3": {
+        "title": "timeline created"
+      },
+      "4": {
+        "title": "OneNote notes created"
+      },
+      "5": {
+        "title": "Mockup drawed (by hand)"
+      },
+      "6": {
+        "title": "input SVG"
+      },
+      "7": {
+        "title": "website base frame created"
+      },
+      "8": {
+        "title": "calendar for timeline created"
+      },
+      "9": {
+        "title": "input ___"
+      },
+      "10": {
+        "title": "made application server ready"
+      },
+      "11": {
+        "title": "imprint created"
+      },
+      "12": {
+        "title": "application first time deploied and buggs fixed"
+      },
+      "13": {
+        "title": "timeline revised/refactored"
+      },
+      "14": {
+        "title": "impress to english translated"
+      },
+      "15": {
+        "title": "icons created"
+      },
+      "16": {
+        "title": "file format page created"
+      },
+      "17": {
+        "title": "file format video integrated"
+      },
+      "18": {
+        "title": "file format images integrated"
+      },
+      "19": {
+        "title": "file format sound integrated"
+      },
+      "20": {
+        "title": "animations Angular integrated"
+      },
+      "21": {
+        "title": "animations CSS3 integrated"
+      },
+      "22": {
+        "title": "file format revised/refactored"
+      },
+      "23": {
+        "title": "animationen SVG integrated"
+      },
+      "24": {
+        "title": "animationen Angular integrated"
+      },
+      "25": {
+        "title": "animationen HTML5 Canvas integrated"
+      },
+      "26": {
+        "title": "Sound loading bug fixed"
+      },
+      "27": {
+        "title": "button to show code integrated"
+      },
+      "28": {
+        "title": "responsive except Canvas clock"
+      },
+      "29": {
+        "title": "made to PWA (Progressiv Web App)"
+      },
+      "30": {
+        "title": "calendar multilingual"
+      },
+      "31": {
+        "title": "buggs fixed"
+      },
+      "32": {
+        "title": "calendar on day click integrated"
+      },
+      "33": {
+        "title": "calendar entries multilingual"
+      }
     }
   },
   "pwa": {

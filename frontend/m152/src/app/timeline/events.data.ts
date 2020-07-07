@@ -1,162 +1,167 @@
 export const eventsData = [
   {
-    title: 'Input Copyright',
+    id: '1',
     start: '2020-05-29T13:00:00',
     end: '2020-05-29T14:30:00'
   },
   {
-    title: 'Website planing',
+    id: '2',
     start: '2020-05-29T14:30:00',
     end: '2020-05-29T16:30:00'
   },
   {
-    title: 'Zeitplan erstellt',
+    id: '3',
     start: '2020-05-29T14:30:00',
     end: '2020-05-29T15:00:00'
   },
   {
-    title: 'OneNote Notizen erstellt',
+    id: '4',
     start: '2020-05-29T15:00:00',
     end: '2020-05-29T15:30:00'
   },
   {
-    title: 'Mockup gezeichnet',
+    id: '5',
     start: '2020-05-29T15:30:00',
     end: '2020-05-29T16:30:00'
   },
   {
-    title: 'Input SVG',
+    id: '6',
     start: '2020-06-05T13:00:00',
     end: '2020-06-05T14:05:00'
   },
   {
-    title: 'Webseite Grundgerüst',
+    id: '7',
     start: '2020-06-05T14:10:00',
     end: '2020-06-05T15:40:00'
   },
   {
-    title: 'Kalender für Zeitlinie einbauen',
+    id: '8',
     start: '2020-06-05T15:40:00',
     end: '2020-06-05T16:20:00'
   },
   {
-    title: 'Input ',
+    id: '9',
     start: '2020-06-12T14:00:00',
     end: '2020-06-12T15:00:00'
   },
   {
-    title: 'Applikation Serverbereit gemacht',
+    id: '10',
     start: '2020-06-15T13:30:00',
     end: '2020-06-15T15:30:00'
   },
   {
-    title: 'Impressum erstellt',
+    id: '11',
     start: '2020-06-15T18:30:00',
     end: '2020-06-15T19:30:00'
   },
   {
-    title: 'Applikation erstes Mal deployed und Fehler behoben',
+    id: '12',
     start: '2020-06-15T19:30:00',
     end: '2020-06-15T21:30:00'
   },
   {
-    title: 'Zeitplan überarbeitet',
+    id: '13',
     start: '2020-06-16T08:20:00',
     end: '2020-06-15T09:00:00'
   },
   {
-    title: 'Impressum auf English übersetzt',
+    id: '14',
     start: '2020-06-16T09:00:00',
     end: '2020-06-15T09:50:00'
   },
   {
-    title: 'Icons erstellt',
+    id: '15',
     start: '2020-06-19T09:00:00',
     end: '2020-06-19T09:20:00'
   },
   {
-    title: 'Fileformate Seite erstellt',
+    id: '16',
     start: '2020-06-19T13:10:00',
     end: '2020-06-19T13:20:00'
   },
   {
-    title: 'Fileformate Video eingebunden',
+    id: '17',
     start: '2020-06-19T13:25:00',
     end: '2020-06-19T15:20:00'
   },
   {
-    title: 'Fileformate Bilder eingebunden',
+    id: '18',
     start: '2020-06-19T15:25:00',
     end: '2020-06-19T16:20:00'
   },
   {
-    title: 'Fileformate Sound eingebunden',
+    id: '19',
     start: '2020-06-26T13:10:00',
     end: '2020-06-26T13:30:00'
   },
   {
-    title: 'Animations Angular eingebunden',
+    id: '20',
     start: '2020-06-26T13:50:00',
     end: '2020-06-26T14:20:00'
   },
   {
-    title: 'Animations CSS3 eingebunden',
+    id: '21',
     start: '2020-06-26T14:30:00',
     end: '2020-06-26T15:10:00'
   },
   {
-    title: 'Fileformate refactored',
+    id: '22',
     start: '2020-06-27T07:40:00',
     end: '2020-06-27T08:20:00'
   },
   {
-    title: 'Animations SVG eingebunden',
+    id: '23',
     start: '2020-07-03T13:10:00',
     end: '2020-07-03T13:50:00'
   },
   {
-    title: 'Animations Angular eingebunden',
+    id: '24',
     start: '2020-07-03T13:50:00',
     end: '2020-07-03T14:15:00'
   },
   {
-    title: 'Animations HTML5 Canvas eingebunden',
+    id: '25',
     start: '2020-07-03T14:20:00',
     end: '2020-07-03T15:30:00'
   },
   {
-    title: 'Fixed sound loading bug',
+    id: '26',
     start: '2020-07-03T15:40:00',
     end: '2020-07-03T15:50:00'
   },
   {
-    title: 'Button zum Code anzeigen',
+    id: '27',
     start: '2020-07-05T09:30:00',
     end: '2020-07-05T11:00:00'
   },
   {
-    title: 'Responsive ausser Canvas Uhr',
+    id: '28',
     start: '2020-07-05T11:30:00',
     end: '2020-07-05T12:30:00'
   },
   {
-    title: 'Zu PWA (Progressiv Web App) gemacht',
+    id: '29',
     start: '2020-07-06T08:00:00',
     end: '2020-07-06T15:00:00'
   },
   {
-    title: 'Kalender multilingual',
+    id: '30',
     start: '2020-07-06T16:00:00',
     end: '2020-07-06T16:15:00'
   },
   {
-    title: 'Buggs beheben',
+    id: '31',
     start: '2020-07-06T17:45:00',
     end: '2020-07-06T19:00:00'
   },
   {
-    title: 'Kalendar auf Tag klicken hinzugefügt',
+    id: '32',
     start: '2020-07-06T19:10:00',
     end: '2020-07-06T19:50:00'
+  },
+  {
+    id: '33',
+    start: '2020-07-07T06:50:00',
+    end: '2020-07-07T07:30:00'
   }
 ];

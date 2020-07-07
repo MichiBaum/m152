@@ -24,13 +24,14 @@ export class TimelineComponent implements OnInit {
   ) {
     this.languageConfig.languageChanged.subscribe(() => {
       this.initOptions();
+      this.initCalendarEntries();
     });
 
   }
 
   ngOnInit(): void {
     this.initOptions();
-    this.events = eventsData;
+    this.initCalendarEntries();
   }
 
   initOptions() {
@@ -59,6 +60,18 @@ export class TimelineComponent implements OnInit {
         this.gotoDate(e.date as Date);
       }
     };
+  }
+
+  initCalendarEntries(){
+    this.events = eventsData.map(
+      value => {
+        return {
+          title: this.translate.instant('calendar.entries.' + value.id + '.title'),
+          start: value.start,
+          end: value.end
+        }
+      }
+    );
   }
 
   gotoDate(date: Date) {

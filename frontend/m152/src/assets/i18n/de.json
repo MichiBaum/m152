@@ -108,6 +108,107 @@
       "week": "Woche",
       "day": "Tag",
       "list": "Liste"
+    },
+    "entries": {
+      "1": {
+        "title": "Input Copyright"
+      },
+      "2": {
+        "title": "Webseite planen"
+      },
+      "3": {
+        "title": "Zeitplan erstellt"
+      },
+      "4": {
+        "title": "OneNote Notizen erstellt"
+      },
+      "5": {
+        "title": "Mockup zeichen (von Hand)"
+      },
+      "6": {
+        "title": "Input SVG"
+      },
+      "7": {
+        "title": "Webseite Grundgerüst erstellen"
+      },
+      "8": {
+        "title": "Kalender für Zeitlinie erstellen"
+      },
+      "9": {
+        "title": "Input ___"
+      },
+      "10": {
+        "title": "Applikation Serverbereit gemacht"
+      },
+      "11": {
+        "title": "Impressum erstellt"
+      },
+      "12": {
+        "title": "Applikation erstes Mal hochgeladen und Fehler behoben"
+      },
+      "13": {
+        "title": "Zeitplan überarbeitet"
+      },
+      "14": {
+        "title": "Impressum auf English übersetzt"
+      },
+      "15": {
+        "title": "Icons erstellt"
+      },
+      "16": {
+        "title": "Fileformate Seite erstellt"
+      },
+      "17": {
+        "title": "Fileformate Video eingebunden"
+      },
+      "18": {
+        "title": "Fileformate Bilder eingebunden"
+      },
+      "19": {
+        "title": "Fileformate Sound eingebunden"
+      },
+      "20": {
+        "title": "Animations Angular eingebunden"
+      },
+      "21": {
+        "title": "Animations CSS3 eingebunden"
+      },
+      "22": {
+        "title": "Fileformate überarbeitet"
+      },
+      "23": {
+        "title": "Animationen SVG eingebunden"
+      },
+      "24": {
+        "title": "Animationen Angular eingebunden"
+      },
+      "25": {
+        "title": "Animationen HTML5 Canvas eingebunden"
+      },
+      "26": {
+        "title": "Sound laden Bug behoben"
+      },
+      "27": {
+        "title": "Button zum Code anzeigen eingebaut"
+      },
+      "28": {
+        "title": "Responsive ausser Canvas Uhr"
+      },
+      "29": {
+        "title": "Zu PWA (Progressiv Web App) gemacht"
+      },
+      "30": {
+        "title": "Kalender multilingual"
+      },
+      "31": {
+        "title": "Buggs behoben"
+      },
+      "32": {
+        "title": "Kalendar auf Tag klicken hinzugefügt"
+      },
+      "33": {
+        "title": "Kalender Einträge Multilingual"
+      }
     }
   },
   "pwa": {
