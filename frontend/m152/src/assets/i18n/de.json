@@ -21,7 +21,8 @@
     "github": "Github",
     "pwa": "Progressive Web App",
     "mockup": "Mockup",
-    "styleguide": "Style Guide"
+    "styleguide": "Style Guide",
+    "licenses": "Lizenzen"
   },
   "owner": {
     "name": "Michael Baumberger",
@@ -219,6 +220,9 @@
       },
       "36": {
         "title": "Style Guide integriert"
+      },
+      "37": {
+        "title": "Lizenzen eingebaut"
       }
     }
   },
@@ -306,6 +310,33 @@
     "primary_color": {
       "title": "Primäre Farbe",
       "description": "Die Primäre Farbe ist: #e91224."
+    }
+  },
+  "licenses": {
+    "title": "Lizenzen und Urheberrecht",
+    "public_domain": {
+      "title": "Public Domain",
+      "description": "Public Domain, oder auf Deutsch Gemeinfreiheit, beschreibt Kunst, schriftstellerische Arbeiten und auch Computerprogramme, die nicht urheberrechtlich geschützt sind. Der Inhaber der Rechte kann auch selber einen Rechteverzicht leisten. Anschliessend gehören diese Werke ebenfalls zur Public Domain. Konkret bedeutet dass, das die Werke in der Public Domain frei genutzt werden können."
+    },
+    "fair_use": {
+      "title": "Fair Use",
+      "description": "Das Fair-Use-Prinzip bezieht sich auf die Benutzung von urheberrechtlich geschützen Materialien. Wie es der Name des Prinzips schon vermuten lässt, geht es darum die Nutzung und die Regelierung der Verwendung von geschützen Material möglichst fair (angemmesen) zu gestalten. Damit die Nutzung unter dem Fair-Use-Prinzip gültig gemacht werden kann, müssen einige Faktoren berücksichtigt werden:",
+      "usage": {
+        "title": "Zweck der Nutzung",
+        "text": "Es muss unterschieden werden zwischen der Nutzung für Bildungszwecken oder kommerzieller Nutzung."
+      },
+      "cogyrights": {
+        "title": "Art des Urheberrechts",
+        "text": "Hier gilt es zu klären ob das Werk auf realen, nachweisbaren, Fakten basiert, oder von fiktiver Natur ist."
+      },
+      "amount_work": {
+        "title": "Anteil im Verhältnis zum gesamten Werk",
+        "text": "Die Nutzung von kleineren Textausschnitten aus dem Originalwerk ist in der Regel erlaubt. Bei längeren Abschnitten oder gar Absätzen kann es zu problemen führen. Auch hier gibt es aber ausnahmen, sofern die Anwendung noch mit Angemessen begründet werden kann."
+      },
+      "own_original": {
+        "title": "Eigene Original Inhalte hinzufügen",
+        "text": "Dem neuen Werk muss eine neue Bedeutung zugesprochen werden können. Hier gilt es das Verhältnis des geschützten Materials zum eigenen zugefügten Inhalt zu beachten."
+      }
     }
   }
 }

@@ -60,6 +60,14 @@ export class NavigationComponent implements OnInit {
         }
       } as MenuItem,
       {
+        label: this.translate.instant('navigation.licenses'),
+        icon: 'far fa-copyright',
+        command: () => {
+          this.sidebarVisible = false;
+          this.routernavigationService.licensesNavigate();
+        }
+      } as MenuItem,
+      {
         label: this.translate.instant('navigation.fileformats'),
         icon: 'fa fa-file',
         command: () => {

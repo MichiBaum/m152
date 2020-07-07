@@ -9,6 +9,7 @@ import {ConceptComponent} from './concept/concept.component';
 import {PwaComponent} from './pwa/pwa.component';
 import {MockupComponent} from './mockup/mockup.component';
 import {StyleguideComponent} from './styleguide/styleguide.component';
+import {LicensesComponent} from './licenses/licenses.component';
 
 const routes: Routes = [
   {
@@ -50,6 +51,10 @@ const routes: Routes = [
   {
     path: 'styleguide',
     component: StyleguideComponent,
+  },
+  {
+    path: 'licenses',
+    component: LicensesComponent,
   }
 ];
 

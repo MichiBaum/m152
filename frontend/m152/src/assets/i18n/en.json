@@ -21,7 +21,8 @@
     "github": "Github",
     "pwa": "progressive web app",
     "mockup": "mockup",
-    "styleguide": "Style Guide"
+    "styleguide": "Style Guide",
+    "licenses": "licenses"
   },
   "owner": {
     "name": "Michael Baumberger",
@@ -219,6 +220,9 @@
       },
       "36": {
         "title": "Style Guide implemented"
+      },
+      "37": {
+        "title": "Licenses implemented"
       }
     }
   },
@@ -306,6 +310,33 @@
     "primary_color": {
       "title": "Primary color",
       "description": "The primary color is: #e91224."
+    }
+  },
+  "licenses": {
+    "title": "Licenses and copyright",
+    "public_domain": {
+      "title": "Public domain",
+      "description": "Public domain, or in German public domain, describes art, writing and computer programs that are not protected by copyright. The owner of the rights can also waive the rights himself. Subsequently, these works also belong to the public domain. Specifically, this means that the works in the public domain can be used freely."
+    },
+    "fair_use": {
+      "title": "Fair use",
+      "description": "The fair use principle relates to the use of copyrighted materials. As the name of the principle suggests, the aim is to make the use and regulation of the use of protected material as fair (appropriate) as possible. In order for the use to be valid under the fair use principle, several factors must be taken into account:",
+      "usage": {
+        "title": "Purpose of use",
+        "text": "A distinction must be made between use for educational purposes or commercial use."
+      },
+      "cogyrights": {
+        "title": "Type of copyright",
+        "text": "It is important to clarify whether the work is based on real, verifiable, facts or is of a fictional nature."
+      },
+      "amount-work": {
+        "title": "Share in relation to the entire plant",
+        "text": "The use of smaller sections of text from the original work is generally permitted. With longer sections or even paragraphs it can lead to problems. However, there are exceptions here as well, provided that the application can still be justified by reason."
+      },
+      "own-original": {
+        "title": "Add your own original content",
+        "text": "The new work must have a new meaning. Here it is important to consider the ratio of the protected material to the content added."
+      }
     }
   }
 }

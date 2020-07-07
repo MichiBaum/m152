@@ -43,4 +43,8 @@ export class RouternavigationService {
   styleguideNavigate() {
     this.router.navigate(['/styleguide'], { skipLocationChange: true });
   }
+
+  licensesNavigate() {
+    this.router.navigate(['/licenses'], { skipLocationChange: true });
+  }
 }
