@@ -16,6 +16,6 @@ import {FormsModule} from '@angular/forms';
     ListboxModule,
     FormsModule
   ],
-  exports:[MockupComponent]
+  exports: [MockupComponent]
 })
 export class MockupModule { }

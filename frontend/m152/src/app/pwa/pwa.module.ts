@@ -18,6 +18,6 @@ import {CoreModule} from '../core/core.module';
     CoreModule,
     CodeHighlighterModule
   ],
-  exports:[PwaComponent]
+  exports: [PwaComponent]
 })
 export class PwaModule { }

@@ -62,14 +62,14 @@ export class TimelineComponent implements OnInit {
     };
   }
 
-  initCalendarEntries(){
+  initCalendarEntries() {
     this.events = eventsData.map(
       value => {
         return {
           title: this.translate.instant('calendar.entries.' + value.id + '.title'),
           start: value.start,
           end: value.end
-        }
+        };
       }
     );
   }
