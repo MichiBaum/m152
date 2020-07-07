@@ -20,7 +20,8 @@
     "animations": "Animationen",
     "github": "Github",
     "pwa": "Progressive Web App",
-    "mockup": "Mockup"
+    "mockup": "Mockup",
+    "styleguide": "Style Guide"
   },
   "owner": {
     "name": "Michael Baumberger",
@@ -215,6 +216,9 @@
       },
       "35": {
         "title": "HTML5 Canvas Uhr überarbeitet"
+      },
+      "36": {
+        "title": "Style Guide integriert"
       }
     }
   },
@@ -283,6 +287,25 @@
     "others": {
       "title": "Anderes",
       "description": "Dazu habe ich noch andere Tools gebraucht. Einige sind fürs Programieren, Versions Kontrolle, andere wiederum für das Bereitstellen auf dem Server etc."
+    }
+  },
+  "styleguide": {
+    "title": "Style Guide",
+    "primeng": {
+      "title": "PrimeNG",
+      "description": "Als Grundlage wird PrimeNG und deren Style eingesetzt. Der Link zu PrimeNG befindet sich im Mockup unter Bibliotheken."
+    },
+    "font": {
+      "title": "Schrift",
+      "description": "Die Schrift ist Open Sans v15 latin regular."
+    },
+    "logo": {
+      "title": "Logo",
+      "showIconSize": "Icon mit der Grösse: "
+    },
+    "primary_color": {
+      "title": "Primäre Farbe",
+      "description": "Die Primäre Farbe ist: #e91224."
     }
   }
 }

@@ -39,4 +39,8 @@ export class RouternavigationService {
   mockupNavigate() {
     this.router.navigate(['/mockup'], { skipLocationChange: true });
   }
+
+  styleguideNavigate() {
+    this.router.navigate(['/styleguide'], { skipLocationChange: true });
+  }
 }

@@ -26,6 +26,7 @@ import {ConceptModule} from './concept/concept.module';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import {PwaModule} from './pwa/pwa.module';
 import {MockupModule} from './mockup/mockup.module';
+import {StyleguideModule} from './styleguide/styleguide.module';
 
 export function TranslateLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -68,7 +69,8 @@ registerLocaleData(localeEn);
     CoreModule,
     ConceptModule,
     PwaModule,
-    MockupModule
+    MockupModule,
+    StyleguideModule
   ],
   providers: [
     LanguageConfig,

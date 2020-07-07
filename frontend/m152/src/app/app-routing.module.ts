@@ -8,6 +8,7 @@ import {AnimationsComponent} from './animations/animations.component';
 import {ConceptComponent} from './concept/concept.component';
 import {PwaComponent} from './pwa/pwa.component';
 import {MockupComponent} from './mockup/mockup.component';
+import {StyleguideComponent} from './styleguide/styleguide.component';
 
 const routes: Routes = [
   {
@@ -45,6 +46,10 @@ const routes: Routes = [
   {
     path: 'mockup',
     component: MockupComponent,
+  },
+  {
+    path: 'styleguide',
+    component: StyleguideComponent,
   }
 ];
 

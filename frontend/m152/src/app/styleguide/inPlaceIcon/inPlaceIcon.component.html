@@ -1,0 +1,8 @@
+<p-inplace *ngIf="showOnMobile">
+  <span pInplaceDisplay class="margin-bottom-2rem">
+    {{"styleguide.logo.showIconSize" | translate}}{{size}}
+  </span>
+  <span pInplaceContent class="margin-bottom-2rem">
+    <img src="assets/icons/favicon-{{size}}.png" wmAnimate="fadeInRight" aos>
+  </span>
+</p-inplace>

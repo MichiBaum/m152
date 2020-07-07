@@ -20,7 +20,8 @@
     "animations": "animations",
     "github": "Github",
     "pwa": "progressive web app",
-    "mockup": "mockup"
+    "mockup": "mockup",
+    "styleguide": "Style Guide"
   },
   "owner": {
     "name": "Michael Baumberger",
@@ -215,6 +216,9 @@
       },
       "35": {
         "title": "HTML5 Canvas clock refactored"
+      },
+      "36": {
+        "title": "Style Guide implemented"
       }
     }
   },
@@ -283,6 +287,25 @@
     "others": {
       "title": "others",
       "description": "I used other tools for this. Some are for programming, version controll, others for provisioning on the server etc."
+    }
+  },
+  "styleguide": {
+    "title": "Style Guide",
+    "primeng": {
+      "title": "PrimeNG",
+      "description": "PrimeNG and its style are used as the basis. The link to PrimeNG is located in the mockup under libraries."
+    },
+    "font": {
+      "title": "Font",
+      "description": "The font is Open Sans v15 latin regular."
+    },
+    "logo": {
+      "title": "Logo",
+      "showIconSize": "Icon with the size: "
+    },
+    "primary_color": {
+      "title": "Primary color",
+      "description": "The primary color is: #e91224."
     }
   }
 }

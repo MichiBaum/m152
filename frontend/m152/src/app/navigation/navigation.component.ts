@@ -100,6 +100,14 @@ export class NavigationComponent implements OnInit {
         }
       } as MenuItem,
       {
+        label: this.translate.instant('navigation.styleguide'),
+        icon: 'fas fa-remove-format',
+        command: () => {
+          this.sidebarVisible = false;
+          this.routernavigationService.styleguideNavigate();
+        }
+      } as MenuItem,
+      {
         label: this.translate.instant('navigation.github'),
         icon: 'fab fa-github',
         command: () => {
