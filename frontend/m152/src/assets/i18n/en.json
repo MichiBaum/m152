@@ -22,7 +22,8 @@
     "pwa": "progressive web app",
     "mockup": "mockup",
     "styleguide": "Style Guide",
-    "licenses": "licenses"
+    "licenses": "licenses",
+    "testing": "testing"
   },
   "owner": {
     "name": "Michael Baumberger",
@@ -223,6 +224,9 @@
       },
       "37": {
         "title": "Licenses implemented"
+      },
+      "38": {
+        "title": "testing implemented"
       }
     }
   },

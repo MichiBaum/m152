@@ -47,4 +47,8 @@ export class RouternavigationService {
   licensesNavigate() {
     this.router.navigate(['/licenses'], { skipLocationChange: true });
   }
+
+  testingNavigate() {
+    this.router.navigate(['/testing'], { skipLocationChange: true });
+  }
 }

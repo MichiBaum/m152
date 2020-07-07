@@ -108,6 +108,14 @@ export class NavigationComponent implements OnInit {
         }
       } as MenuItem,
       {
+        label: this.translate.instant('navigation.testing'),
+        icon: 'fas fa-vial',
+        command: () => {
+          this.sidebarVisible = false;
+          this.routernavigationService.testingNavigate();
+        }
+      } as MenuItem,
+      {
         label: this.translate.instant('navigation.styleguide'),
         icon: 'fas fa-remove-format',
         command: () => {

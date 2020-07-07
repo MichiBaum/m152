@@ -28,6 +28,7 @@ import {PwaModule} from './pwa/pwa.module';
 import {MockupModule} from './mockup/mockup.module';
 import {StyleguideModule} from './styleguide/styleguide.module';
 import {LicensesModule} from './licenses/licenses.module';
+import {TestingModule} from './testing/testing.module';
 
 export function TranslateLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -72,7 +73,8 @@ registerLocaleData(localeEn);
     PwaModule,
     MockupModule,
     StyleguideModule,
-    LicensesModule
+    LicensesModule,
+    TestingModule
   ],
   providers: [
     LanguageConfig,
