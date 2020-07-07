@@ -350,5 +350,134 @@
   "reflection": {
     "title": "Reflexion",
     "description": "Dieses Modul war definitiv eines der besseren Module. Leider muss ich sagen, dass einige Teile des Moduls einem Entwickler im dritten Lehrjahr bekannt sein müssen. Zum Beispiel wie man ein Bild oder ein Video in HTML5 einbindet. Andere wiederum, wie zum Beispiel Animationen, habe ich neu kennengelernt, da ich selten mit Animationen Arbeite im Geschäft. Dort sind es meistens Business Applikationen und der Kunde zahlt nicht dafür, dass sich die Webseite bewegt. Da einige Teile etwas 'leicht/langweilig' waren, konnte ich mir selber noch eine Challenge setzten und zwar, dass meine Webseite eine PWA (Progressive Web App) ist und somit offline zur Verfügung steht. Meine letzten Worte sind nur, dass mir das Modul sehr gut gefiehl auch wenn es viel Inhalt hat."
+  },
+  "testing": {
+    "title": "Testen",
+    "description": "Here are some tests described and results as to whether they work in different browsers.",
+    "browser": {
+      "chrome": "Chrome 83.0.4103.116",
+      "firefox": "Firefox 78.0.1",
+      "new_microsoft_edge": "Chromium Microsoft Edge 83.0.478.58",
+      "ie": "Internet Explorer 11.900.18362.0",
+      "mobile": {
+        "chrome": "Mobile Chrome 83.0.4103.106"
+      }
+    },
+    "1": {
+      "title": "Home page available",
+      "description": "The home page can be accessed via the navigation."
+    },
+    "2": {
+      "title": "Concept page available",
+      "description": "The concept page can be accessed via the navigation."
+    },
+    "3": {
+      "title": "Timeline page available",
+      "description": "The timeline page can be accessed via the navigation."
+    },
+    "4": {
+      "title": "Licenses page available",
+      "description": "The licenses page can be accessed via the navigation."
+    },
+    "5": {
+      "title": "File formats page available",
+      "description": "The file formats page can be accessed via the navigation."
+    },
+    "6": {
+      "title": "Animations page available",
+      "description": "The animation page can be accessed via the navigation."
+    },
+    "7": {
+      "title": "Progressive web app page available",
+      "description": "The progressive web app page can be accessed via the navigation."
+    },
+    "8": {
+      "title": "Imprint page available",
+      "description": "The imprint page can be accessed via the navigation."
+    },
+    "9": {
+      "title": "Mockup page available",
+      "description": "The mockup page can be accessed via the navigation."
+    },
+    "10": {
+      "title": "Test page available",
+      "description": "The test page can be accessed via the navigation."
+    },
+    "11": {
+      "title": "Style guide page available",
+      "description": "The Style Guide page can be accessed via the navigation."
+    },
+    "12": {
+      "title": "Reflection page available",
+      "description": "The reflection page can be accessed via the navigation."
+    },
+    "13": {
+      "title": "Callable Github",
+      "description": "Pressing Github in the navigation opens a new tab with the Github repository."
+    },
+    "14": {
+      "title": "Home page responsive",
+      "description": "The home page is completely responsive."
+    },
+    "15": {
+      "title": "Concept page responsive",
+      "description": "The concept page is completely responsive."
+    },
+    "16": {
+      "title": "Timeline page responsive",
+      "description": "The timeline page is completely responsive."
+    },
+    "17": {
+      "title": "Licenses site responsive",
+      "description": "The licenses page is completely responsive."
+    },
+    "18": {
+      "title": "File formats page responsive",
+      "description": "The file formats page is completely responsive."
+    },
+    "19": {
+      "title": "Animations page responsive",
+      "description": "The animation page is completely responsive."
+    },
+    "20": {
+      "title": "Progressive web app page responsive",
+      "description": "The progressive web app page is completely responsive."
+    },
+    "21": {
+      "title": "Imprint Site responsive",
+      "description": "The imprint page is completely responsive."
+    },
+    "22": {
+      "title": "Mockup site responsive",
+      "description": "The mockup page is completely responsive."
+    },
+    "23": {
+      "title": "Test site responsively",
+      "description": "The testing site is completely responsive."
+    },
+    "24": {
+      "title": "Responsive style guide page",
+      "description": "The Style Guide page is completely responsive."
+    },
+    "25": {
+      "title": "Reflection side responsive",
+      "description": "The reflection side is completely responsive."
+    },
+    "26": {
+      "title": "Images and videos are all loaded",
+      "description": "All images and videos on the pages are loaded."
+    },
+    "27": {
+      "title": "Code can be opened",
+      "description": "Code can be opened and closed on all sides."
+    },
+    "28": {
+      "title": "Open navigation",
+      "description": "Navigation can be opened on all pages."
+    },
+    "29": {
+      "title": "PWA",
+      "description": "The website can be installed as a PWA."
+    }
   }
 }

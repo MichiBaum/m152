@@ -1,0 +1,42 @@
+<p-card>
+
+  <h2 wmAnimate="fadeInRight" aos>
+    <strong>{{"testing." + testNumber + ".title" | translate}}</strong>
+  </h2>
+
+  <p wmAnimate="fadeInRight" aos class="margin-bottom-2rem">
+    {{"testing." + testNumber + ".description" | translate}}
+  </p>
+
+  <div class="ui-rtl" dir="rtl" wmAnimate="fadeInRight" aos>
+    <button pButton type="button" icon="fas fa-shower" (click)="changeState()" class="ui-button-rounded ui-button-secondary"></button>
+  </div>
+  <div *ngIf="!isColsed">
+
+    <p wmAnimate="fadeInRight" aos>
+      {{"testing.browser.chrome" | translate}}
+    </p>
+    <p-rating ngModel="5" readonly="true" [cancel]="false"></p-rating>
+
+    <p wmAnimate="fadeInRight" aos class="margin-top-1rem">
+      {{"testing.browser.firefox" | translate}}
+    </p>
+    <p-rating ngModel="5" readonly="true" [cancel]="false"></p-rating>
+
+    <p wmAnimate="fadeInRight" aos class="margin-top-1rem">
+      {{"testing.browser.new_microsoft_edge" | translate}}
+    </p>
+    <p-rating ngModel="5" readonly="true" [cancel]="false"></p-rating>
+
+    <p wmAnimate="fadeInRight" aos class="margin-top-1rem">
+      {{"testing.browser.ie" | translate}}
+    </p>
+    <p-rating ngModel="5" readonly="true" [cancel]="false"></p-rating>
+
+    <p wmAnimate="fadeInRight" aos class="margin-top-1rem">
+      {{"testing.browser.mobile.chrome" | translate}}
+    </p>
+    <p-rating ngModel="5" readonly="true" [cancel]="false"></p-rating>
+
+  </div>
+</p-card>

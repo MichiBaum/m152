@@ -350,5 +350,134 @@
   "reflection": {
     "title": "Reflection",
     "description": "This module was definitely one of the better modules. Unfortunately I have to say that some parts of the module have to be known to a developer in the third year of training. For example how to embed an image or a video in HTML5. I got to know others, such as animations, because I rarely work with animations in business. There it is mostly business applications and the customer does not pay for the website to move. Since some parts were a bit 'easy / boring', I was able to set myself a challenge, namely that my website is a PWA (Progressive Web App) and is therefore available offline. My last words are just that I like the module very well, even if it has a lot of content."
+  },
+  "testing": {
+    "title": "Testing",
+    "description": "",
+    "browser": {
+      "chrome": "Chrome 83.0.4103.116",
+      "firefox": "Firefox 78.0.1",
+      "new_microsoft_edge": "Chromium Microsoft Edge 83.0.478.58",
+      "ie": "Internet Explorer 11.900.18362.0",
+      "mobile": {
+        "chrome": "Mobile Chrome 83.0.4103.106"
+      }
+    },
+    "1": {
+      "title": "Home Seite verfügbar",
+      "description": "Die Home Seite kann über die Navigation aufgerufen werden."
+    },
+    "2": {
+      "title": "Konzept Seite verfügbar",
+      "description": "Die Konzept Seite kann über die Navigation aufgerufen werden."
+    },
+    "3": {
+      "title": "Zeitlinie Seite verfügbar",
+      "description": "Die Zeitlinie Seite kann über die Navigation aufgerufen werden."
+    },
+    "4": {
+      "title": "Lizenzen Seite verfügbar",
+      "description": "Die Lizenzen Seite kann über die Navigation aufgerufen werden."
+    },
+    "5": {
+      "title": "Datei Formate Seite verfügbar",
+      "description": "Die Datei Formate Seite kann über die Navigation aufgerufen werden."
+    },
+    "6": {
+      "title": "Animationen Seite verfügbar",
+      "description": "Die Animationen Seite kann über die Navigation aufgerufen werden."
+    },
+    "7": {
+      "title": "Progressive Web App Seite verfügbar",
+      "description": "Die Progressive Web App Seite kann über die Navigation aufgerufen werden."
+    },
+    "8": {
+      "title": "Impressum Seite verfügbar",
+      "description": "Die Impressum Seite kann über die Navigation aufgerufen werden."
+    },
+    "9": {
+      "title": "Mockup Seite verfügbar",
+      "description": "Die Mockup Seite kann über die Navigation aufgerufen werden."
+    },
+    "10": {
+      "title": "Testen Seite verfügbar",
+      "description": "Die Testen Seite kann über die Navigation aufgerufen werden."
+    },
+    "11": {
+      "title": "Style Guide Seite verfügbar",
+      "description": "Die Style Guide Seite kann über die Navigation aufgerufen werden."
+    },
+    "12": {
+      "title": "Reflexion Seite verfügbar",
+      "description": "Die Reflexion Seite kann über die Navigation aufgerufen werden."
+    },
+    "13": {
+      "title": "Github aufrufbar",
+      "description": "Durch drücken auf Github in der Navigation wird ein neuer Tab mit dem Githubrepository geöffnet."
+    },
+    "14": {
+      "title": "Home Seite responsiv",
+      "description": "Die Home Seite ist vollkommen responsive."
+    },
+    "15": {
+      "title": "Konzept Seite responsiv",
+      "description": "Die Konzept Seite ist vollkommen responsive."
+    },
+    "16": {
+      "title": "Zeitlinie Seite responsiv",
+      "description": "Die Zeitlinie Seite ist vollkommen responsive."
+    },
+    "17": {
+      "title": "Lizenzen Seite responsiv",
+      "description": "Die Lizenzen Seite ist vollkommen responsive."
+    },
+    "18": {
+      "title": "Datei Formate Seite responsiv",
+      "description": "Die Datei Formate Seite ist vollkommen responsive."
+    },
+    "19": {
+      "title": "Animationen Seite responsiv",
+      "description": "Die Animationen Seite ist vollkommen responsive."
+    },
+    "20": {
+      "title": "Progressive Web App Seite responsiv",
+      "description": "Die Progressive Web App Seite ist vollkommen responsive."
+    },
+    "21": {
+      "title": "Impressum Seite responsiv",
+      "description": "Die Impressum Seite ist vollkommen responsive."
+    },
+    "22": {
+      "title": "Mockup Seite responsiv",
+      "description": "Die Mockup Seite ist vollkommen responsive."
+    },
+    "23": {
+      "title": "Testen Seite responsiv",
+      "description": "Die Testen Seite ist vollkommen responsive."
+    },
+    "24": {
+      "title": "Style Guide Seite responsiv",
+      "description": "Die Style Guide Seite ist vollkommen responsive."
+    },
+    "25": {
+      "title": "Reflexion Seite responsiv",
+      "description": "Die Reflexion Seite ist vollkommen responsive."
+    },
+    "26": {
+      "title": "Bilder und Videos werden alle geladen",
+      "description": "Alle Bilder und Videos auf den Seiten werden geladen."
+    },
+    "27": {
+      "title": "Code kann aufgeklappt werden",
+      "description": "Code kann auf allen Seiten auf und wieder eingeklappt werden."
+    },
+    "28": {
+      "title": "Navigation öffnen",
+      "description": "Navigation kann auf allen Seiten geöffnet werden."
+    },
+    "29": {
+      "title": "PWA",
+      "description": "Die Webseite kann als PWA installiert werden."
+    }
   }
 }
