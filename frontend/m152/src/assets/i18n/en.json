@@ -19,7 +19,8 @@
     "fileformats": "file formats",
     "animations": "animations",
     "github": "Github",
-    "pwa": "progressive web app"
+    "pwa": "progressive web app",
+    "mockup": "mockup"
   },
   "owner": {
     "name": "Michael Baumberger",
@@ -264,6 +265,18 @@
         "title": "Improved performance",
         "description": "PWAs are faster than common web apps. Conversions, user experience and retention rates benefit from this."
       }
+    }
+  },
+  "mockup": {
+    "title": "Mockup",
+    "description": "Unfortunately, the creation of a mockup or rather a wireframe with a tool failed. There were several reasons for this. The tool, or rather the tools that I picked out, were very difficult to understand. Getting used to and creating the tool as a mockup in the desktop and mobile version would have taken far too much time. Another reason that only occurred to me after drawing was that I wanted to embed the mockup in the website and I don't know how I could embed a wireframe in a website. That's why I drew this mockup. The mobile version looks exactly the same, except of course that it is narrower.",
+    "libraries": {
+      "title": "libraries",
+      "description": "I used a few libraries but always remembered that I don't do everything with libraries, because then I wouldn't have to do anything anymore. If I did everything with libraries, I could also use Wordpress, navigate here, click there, install this plugin, drag it there and set the maximum width. That would be WordPress. Linked below are all the libraries that I have used."
+    },
+    "others": {
+      "title": "others",
+      "description": "I used other tools for this. Some are for programming, others for provisioning on the server etc."
     }
   }
 }

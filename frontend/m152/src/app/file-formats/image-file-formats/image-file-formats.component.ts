@@ -28,7 +28,7 @@ export class ImageFileFormatsComponent implements OnInit {
       {
         src: 'assets/images/rothorn_2.jpg',
         alt: 'rothorn_2.jpg'
-      },
+      }
     ];
   }
 

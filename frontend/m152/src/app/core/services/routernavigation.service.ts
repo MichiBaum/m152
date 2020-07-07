@@ -35,4 +35,8 @@ export class RouternavigationService {
   pwaNavigate() {
     this.router.navigate(['/pwa'], { skipLocationChange: true });
   }
+
+  mockupNavigate() {
+    this.router.navigate(['/mockup'], { skipLocationChange: true });
+  }
 }

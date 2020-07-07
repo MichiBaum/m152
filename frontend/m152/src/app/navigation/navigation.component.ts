@@ -92,6 +92,14 @@ export class NavigationComponent implements OnInit {
         }
       } as MenuItem,
       {
+        label: this.translate.instant('navigation.mockup'),
+        icon: 'fas fa-pen',
+        command: () => {
+          this.sidebarVisible = false;
+          this.routernavigationService.mockupNavigate();
+        }
+      } as MenuItem,
+      {
         label: this.translate.instant('navigation.github'),
         icon: 'fab fa-github',
         command: () => {

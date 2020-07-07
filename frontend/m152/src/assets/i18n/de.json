@@ -19,7 +19,8 @@
     "fileformats": "Datei Formate",
     "animations": "Animationen",
     "github": "Github",
-    "pwa": "Progressive Web App"
+    "pwa": "Progressive Web App",
+    "mockup": "Mockup"
   },
   "owner": {
     "name": "Michael Baumberger",
@@ -264,6 +265,18 @@
         "title": "Verbesserte Performance",
         "description": "PWA sind schneller als übliche Web-Apps. Davon profitieren Conversions, User Experience und Retention Rates."
       }
+    }
+  },
+  "mockup": {
+    "title": "Mockup",
+    "description": "Die Erstellung eines Mockups oder besser gesagt eines Wireframes mit einem Tool ist leider Fehlgeschlagen. Dazu gab es mehrere Gründe. Das Tool oder besser gesagt die Tools welche ich herausgesucht habe, waren sehr schwer zu verstehen. Die Eingewöhnung und das erstellen des Tools als Mockup in Desktop und Mobile Version hätte viel zu viel Zeit gekostet. Ein weiterer Grund, welcher mir erst nach dem Zeichnen eingefallen ist, ist, dass ich das Mockup in der Webseite einbinden wollte und ich wüsste nicht wie ich ein Wireframe in einer Webseite einbinden könnte. Deshalt habe ich dieses Mockup gezeichnet. Die Mobile Version sieht sieht genau gleich aus, ausser natürlich das sie schmaler ist.",
+    "libraries": {
+      "title": "Bibliotheken",
+      "description": "Ich habe einige Bibliotheken eingesetzt aber immer daran gedach, dass ich nicht alles mit Bibliotheken mache, denn dann müsste ich nichts mehr machen. Wenn ich alles mit Bibliotheken machen würde, könnte ich auch mit Wordpress arbeiten, Navigiere hier, Klicke da, installiere dieses Plugin, ziehe das dahin und setze die maximale Breite. Das wäre Wordpress. Unten verlinkt sind alle Bibliotheken, welche ich genutzt habe."
+    },
+    "others": {
+      "title": "Anderes",
+      "description": "Dazu habe ich noch andere Tools gebraucht. Einige sind fürs Programieren, andere wiederum für das Bereitstellen auf dem Server etc."
     }
   }
 }

@@ -7,6 +7,7 @@ import {FileFormatsComponent} from './file-formats/file-formats.component';
 import {AnimationsComponent} from './animations/animations.component';
 import {ConceptComponent} from './concept/concept.component';
 import {PwaComponent} from './pwa/pwa.component';
+import {MockupComponent} from './mockup/mockup.component';
 
 const routes: Routes = [
   {
@@ -40,6 +41,10 @@ const routes: Routes = [
   {
     path: 'pwa',
     component: PwaComponent,
+  },
+  {
+    path: 'mockup',
+    component: MockupComponent,
   }
 ];
 

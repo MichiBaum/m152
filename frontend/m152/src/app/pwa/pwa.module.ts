@@ -17,6 +17,7 @@ import {CoreModule} from '../core/core.module';
     AnimateModule,
     CoreModule,
     CodeHighlighterModule
-  ]
+  ],
+  exports:[PwaComponent]
 })
 export class PwaModule { }

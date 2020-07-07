@@ -18,7 +18,6 @@ This project contains:
  - [Docker](https://www.docker.com/)
  - [Docker amd64/node](https://hub.docker.com/r/amd64/node/)
  - [Docker arm64v8/nginx](https://hub.docker.com/r/arm64v8/nginx/)
- - [stackedit](https://stackedit.io/) ([markdown editor](https://stackedit.io/app#))
  - [Jetbrains idea (Intellij)](https://www.jetbrains.com/de-de/idea/)
  - [Desktop Github](https://desktop.github.com/)
  - [Angular](https://angular.io/)

@@ -1,0 +1,40 @@
+<div class="p-grid">
+  <div class="p-md-12 p-md-offset-0 p-sm-12 p-sm-offset-0 p-xl-8 p-xl-offset-2 p-lg-8 p-lg-offset-2">
+
+    <p-card>
+
+      <h2 wmAnimate="fadeInRight" aos>
+        <strong>{{"mockup.title" | translate}}</strong>
+      </h2>
+
+      <p wmAnimate="fadeInRight" aos class="margin-bottom-2rem">
+        {{"mockup.description" | translate}}
+      </p>
+
+      <img src='assets/mockup/mockup.jpg' alt="Mockup" style="width: 100%; display: block;"/>
+
+      <h2 wmAnimate="fadeInRight" aos>
+        <strong>{{"mockup.libraries.title" | translate}}</strong>
+      </h2>
+
+      <p wmAnimate="fadeInRight" aos class="margin-bottom-2rem">
+        {{"mockup.libraries.description" | translate}}
+      </p>
+
+      <p-listbox [options]="libraries" (onClick)="openLink($event)" class="margin-bottom-2rem" optionLabel="name"></p-listbox>
+
+      <h2 wmAnimate="fadeInRight" aos>
+        <strong>{{"mockup.others.title" | translate}}</strong>
+      </h2>
+
+      <p wmAnimate="fadeInRight" aos class="margin-bottom-2rem">
+        {{"mockup.others.description" | translate}}
+      </p>
+
+      <p-listbox [options]="others" (onClick)="openLink($event)" class="margin-bottom-2rem" optionLabel="name"></p-listbox>
+
+    </p-card>
+
+
+  </div>
+</div>
