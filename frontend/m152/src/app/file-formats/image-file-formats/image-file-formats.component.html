@@ -26,7 +26,11 @@
   <app-code>
     <pre wmAnimate="fadeInRight" aos>
       <code class="language-markup" pCode>
-&lt;img src="image_Path" width="100%"> &lt;!-- {{'file-formats.images.tag' | translate}} -->
+&lt;p-carousel [value]="images" [numVisible]="1" [numScroll]="1" [autoplayInterval]="3000" [circular]="true">
+  &lt;ng-template let-item pTemplate="item">
+    &lt;img [src]='item.src' [alt]="item.alt" style="width: 100%; display: block;"/> &lt;!-- {{'file-formats.images.tag' | translate}} -->
+  &lt;/ng-template>
+&lt;/p-carousel>
       </code>
     </pre>
   </app-code>
